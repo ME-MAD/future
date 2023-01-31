@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 1em;
+}
+
+.left .brand {
+    display: flex;
+    color: #3399CC;
+}
+
+.left .brand:hover {
+    color: #009999;
+    cursor: pointer;
+}
+
+.left .brand p {
+    font-size: 1.6rem;
+    margin-left: .3em;
+}
+
+.left .brand i {
+    font-size: 2rem;
+}
+
+.right ul {
+    display: flex;
+
+    color: #666666b9;
+    list-style: none;
+    margin-right: 0px;
+}
+
+.right ul:hover {
+    cursor: pointer;
+
+}
+
+.right ul li {
+    margin-right: 1.5em;
+    font-size: 1.4rem;
+}
+
+.right ul li:hover {
+    color: #009999;
+}
+
+.photo .border {
+    margin-top: 5px;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+
+.vedio .border {
+    margin-top: 5px;
+    width: 100%;
+    height: 3px;
+    background-color: #FF6666;
+    opacity: 0;
+    transition: .5s;
+}
+
+.vedio .border:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.about .border {
+    margin-top: 5px;
+    width: 100%;
+    height: 3px;
+    background-color: #33CC66;
+    opacity: 0;
+    transition: .5s;
+}
+
+.about .border:hover {
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+.contact .border {
+    margin-top: 5px;
+    width: 100%;
+    height: 3px;
+    background-color: #CC66CC;
+    opacity: 0;
+    transition: .5s;
+}
+
+.contact .border:hover {
+    opacity: 1;
+    cursor: pointer;
+}
