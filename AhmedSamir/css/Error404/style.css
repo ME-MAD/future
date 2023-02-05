@@ -1,0 +1,147 @@
+html{
+   
+    background-color: #060818;
+}
+.container .text{
+	display: flex;
+}
+.container .text .text-page h2{
+  width: 70%;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 2em;
+  margin-left: 15em;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 300;
+  font-family: Audiowide;
+  text-shadow: 0px 0px 4px #12000a;
+  animation: fadeInText 3s ease-in 3.5s forwards, flicker4 5s linear 7.5s infinite, hueRotate 6s ease-in-out 3s infinite;
+}
+@keyframes fadeInText{
+	1%  {color: #12000a;text-shadow:0px 0px 4px #12000a;}
+	70% {color: #ff005d;text-shadow:0px 0px 14px #ff005d;}
+	100%{color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
+}
+@keyframes flicker4{
+	0%  {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
+	30% {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
+	31% {color: #12000a;text-shadow:0px 0px 4px #12000a;}
+	32% {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
+	36% {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
+	37% {color: #12000a;text-shadow:0px 0px 4px #12000a;}
+	41% {color: #12000a;text-shadow:0px 0px 4px #12000a;}
+	42% {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
+	85% {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
+	86% {color: #12000a;text-shadow:0px 0px 4px #12000a;}
+	95% {color: #12000a;text-shadow:0px 0px 4px #12000a;}
+	96% {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
+	100%{color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
+  }
+  @keyframes hueRotate{
+	0%  {
+	  filter: hue-rotate(0deg);
+	}
+	50%  {
+	  filter: hue-rotate(-120deg);
+	}
+	100%  {
+	  filter: hue-rotate(0deg);
+	}
+  }  
+.container .text .robot{
+	width: 20%;
+}
+.container .text .robot img{
+	width: 100%;
+	animation-name: fade-in-top;
+	animation-duration: 2.2s;
+	animation-timing-function: ease;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-fill-mode: none;
+	}
+	@keyframes fade-in-top {
+			
+		0% {
+			transform:translateY(-50px);
+			opacity:0;
+		}
+		100% {
+			transform:translateY(0);
+			opacity:1;
+		}
+	}
+
+.container .photo{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 60vh;
+	margin-top: -6em;
+    width: 90%;
+}
+.container .photo img{
+    width: 25%;
+}
+.container .photo .zero{
+    color: #3079ed; font-weight:bold; font-size:3em;
+		animation-name: focus-in-contract;
+		animation-duration: 2.2s;
+		animation-timing-function: ease;
+		animation-delay: 0.2s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate-reverse;
+		animation-fill-mode: none;
+	}
+	@keyframes focus-in-contract {
+			
+		0% {
+			letter-spacing:1em;
+			filter:blur(12px);
+			opacity:0;
+		}
+		100% {
+			filter:blur(0);
+			opacity:1;
+		}
+}
+.container .photo .four{
+		animation-name: rotate-center;
+		animation-duration: 1.2s;
+		animation-timing-function: ease;
+		animation-delay: 0.2s;
+		animation-iteration-count: infinite;
+		animation-direction: normal;
+		animation-fill-mode: none;
+	}
+	@keyframes rotate-center {
+			
+		0% {
+			transform:rotate(0);
+		}
+		100% {
+			transform:rotate(360deg);
+		}
+	}
+.container .end{
+	display: flex;
+	justify-content: center;
+}
+.container .end .btn button{
+	border: none;
+	padding: .5em 2em;
+	font-size: 18px;
+	border-radius: 30px;
+	color:white ;
+	background-color: gray;
+	animation: fadeInText 3s ease-in 3.5s forwards, flicker4 5s linear 7.5s infinite, hueRotate 6s ease-in-out 3s infinite;
+}
+.container .end .robot-2{
+	width: 10%;
+}
+.container .end .robot-2 img{
+	width: 100%;
+}
