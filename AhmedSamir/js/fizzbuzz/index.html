@@ -13,13 +13,32 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <div class="container">
-        <img src="./photo/WhatsApp Image 2023-02-02 at 7.04.02 PM.jpeg" alt="">
-        <img src="./photo/WhatsApp Image 2023-02-02 at 7.04.04 PM (1).jpeg" alt="" class="image">
-        <img src="./photo/WhatsApp Image 2023-02-02 at 7.04.04 PM.jpeg" alt="" class="image">
-        <img src="./photo/WhatsApp Image 2023-02-02 at 7.04.05 PM.jpeg" alt="" class="image">
-    </div>
-    
+   
+   
+
+
+
+
+    <script>
+
+       
+        let number = prompt("Enter the number");
+
+        if (number % 3 == 0 && number % 5 != 0) {
+         document.write(number + " : " +"Fizz");
+        }
+        else if(number % 5 == 0 && number % 3 != 0)
+        {
+          document.write(number + " : " +"Buzz");
+        }
+        else if(number % 5 == 0 && number % 3 == 0)
+        {
+            document.write(number + " : " +"FizzBuzz");
+        }
+        else{
+            document.write("Error")
+        }
+       
+    </script>
 </body>
 </html>
