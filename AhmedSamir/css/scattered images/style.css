@@ -1,0 +1,10 @@
+.container .photo .image{
+	margin-left: -23%;
+}
+.container:hover .photo{
+	display: flex;
+	justify-content: space-between;
+}
+.container img{
+	width: 23%;
+}
