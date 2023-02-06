@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+
+
+
+
+    <script>
+        let frist = prompt("frist num")
+        let last = prompt("last num")
+        let operator = prompt("write operator") 
+
+        frist = Number(frist)
+        last = Number(last) 
+        
+        if ( Number.isNaN(frist) || Number.isNaN(last) )
+        {
+           console.log( "error please write nuber" )
+        } 
+        else 
+        {
+            if ( operator === "*" )
+            {
+                 let result = frist * last
+                 console.log( "result is:" + " " + frist + " " + "*" + " "+last + " "+ "=" +" "+ result )
+            }
+            else if( operator === "+" )
+            {
+                 result = frist + last
+                 console.log( "result is:" + " " + frist + " " + "+" + " "+last + " "+ "=" +" "+ result ) 
+            }
+            else if ( operator === "/" )
+            {
+                 result = frist / last
+                 console.log( "result is:" + " " + frist + " " + "/" + " "+last + " "+ "=" +" "+ result ) 
+            }
+            else if ( operator === "-" )
+            {
+                 result = frist - last  
+                 console.log( "result is:" + " " + frist + " " + "-" + " "+last + " "+ "=" +" "+ result ) 
+
+            }
+            else if( operator === "%" )
+            {
+                 result = frist % last
+                 console.log( "result is:" + " " + frist + " " + "%" + " "+last + " "+ "=" +" "+ result )   
+            } 
+            else  
+            {
+
+                 console.log("error please write real operator")
+            }
+        }
+        
+     
+
+
+
+
+
+    </script>
+</body>
+</html>
