@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+</head>
+<body>
+    <script>
+
+     var firstNumber  = prompt('Enter The First Number');
+     var operator     = prompt('Enter The Operator');
+     var secondNumber = prompt('Enter The Second Number');
+
+     firstNumber = Number(firstNumber);
+     secondNumber = Number(secondNumber);
+
+     if ( Number.isNaN(firstNumber) || Number.isNaN(secondNumber) )
+      {
+        console.log("The Number You Entered Is Incorrect");
+      }
+      else
+      { 
+       if ( operator === "+")
+        {
+          result = firstNumber + secondNumber
+
+          console.log("The Result Is " + firstNumber + " " + operator + " " +
+                                        secondNumber + " " +  " = " + result 
+                    ); 
+        }
+        else if(operator === "-")
+        {
+          result = firstNumber - secondNumber
+
+          console.log("The Result Is " + firstNumber + " " + operator + " " +
+                                        secondNumber + " " +  " = " + result 
+                    ); 
+
+        }
+        else if(operator === "*")
+        {
+          result = firstNumber * secondNumber
+
+          console.log("The Result Is " + firstNumber + " " + operator + " " +
+                                        secondNumber + " " +  " = " + result 
+                    ); 
+
+        }
+        else if(operator === "/")
+        {
+          result = firstNumber / secondNumber
+
+          console.log("The Result Is " + firstNumber + " " + operator + " " +
+                                        secondNumber + " " +  " = " + result 
+                    ); 
+
+        }
+        else if( operator === "%" )
+        {
+          result = firstNumber % secondNumber
+
+          console.log("The Result Is " + firstNumber + " " + operator + " " +
+                                        secondNumber + " " +  " = " + result 
+                    );
+        }
+        else
+        {
+            console.log("Check The Oprator");
+        }
+       }
+    </script>
+</body>
+</html>
