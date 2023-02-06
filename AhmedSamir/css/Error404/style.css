@@ -80,6 +80,7 @@ html{
     justify-content: center;
     align-items: center;
 	height: 60vh;
+	margin-left: 4em;
 	margin-top: -6em;
     width: 90%;
 }
@@ -129,12 +130,14 @@ html{
 .container .end{
 	display: flex;
 	justify-content: center;
+	margin-right: 6em;
 }
 .container .end .btn button{
 	border: none;
 	padding: .5em 2em;
 	font-size: 18px;
 	border-radius: 30px;
+	font-weight: 600;
 	color:white ;
 	background-color: gray;
 	animation: fadeInText 3s ease-in 3.5s forwards, flicker4 5s linear 7.5s infinite, hueRotate 6s ease-in-out 3s infinite;
