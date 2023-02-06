@@ -17,14 +17,14 @@
 
 
     <script>
-        let frist = prompt("frist num")
-        let last = prompt("last num")
-        let operator = prompt("write operator") 
+        let frist = prompt ( "frist num" )
+        let last = prompt ( "last num" )
+        let operator = prompt ( "write operator" ) 
 
-        frist = Number(frist)
-        last = Number(last) 
+        frist = Number ( frist )
+        last = Number ( last ) 
         
-        if ( Number.isNaN(frist) || Number.isNaN(last) )
+        if ( Number.isNaN ( frist ) || Number.isNaN ( last ) )
         {
            console.log( "error please write nuber" )
         } 
@@ -35,7 +35,7 @@
                  let result = frist * last
                  console.log( "result is:" + " " + frist + " " + "*" + " "+last + " "+ "=" +" "+ result )
             }
-            else if( operator === "+" )
+            else if ( operator === "+" )
             {
                  result = frist + last
                  console.log( "result is:" + " " + frist + " " + "+" + " "+last + " "+ "=" +" "+ result ) 
