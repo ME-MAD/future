@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazz And Buzz</title>
+</head>
+<body>
+    <script>
+         var EnteredNumber = prompt("Please Enter The Number")
+
+         EnteredNumber = Number(EnteredNumber)
+         
+         if (!Number.isNaN(EnteredNumber))
+         {
+            if ( EnteredNumber % 3 == 0 && EnteredNumber % 5 == 0 )
+            {
+                document.write("<h2>Fizz Buzz</h2>")
+            }
+            else if (EnteredNumber % 3 == 0)
+            {
+                document.write("<h2>Fizz</h2>")
+            }
+            else if (EnteredNumber % 5 == 0)
+            {
+                document.write("<h2>Buzz</h2>")
+            }
+            else
+            {
+                document.write("<h2> Error </h2>")
+            }
+         }
+         else
+         {
+            document.write("<h2> The Number You Entered Is Incorrect </h2>")
+         }
+    </script>
+</body>
+</html>
