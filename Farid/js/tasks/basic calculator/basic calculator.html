@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let first    = prompt ("Fnumb")
+        let second   = prompt ("Snumber")
+        let operator = prompt ("operator")
+        
+
+        first  =   Number(first);
+        second =   Number(second);
+
+        
+        if(Number.isNaN(first) || Number.isNaN(second))
+        {
+            document.write("this is not a number")
+            
+        }
+
+     else {
+        if (operator=="+"){
+            document.write("Result is "+(first+ second))
+        }
+        else {
+        if (operator=="-")
+        {
+            document.write("Result is "+(first - second))
+        }
+        else {
+        if (operator=="*"){
+            document.write("Result is "+(first * second))
+        }
+        else {
+        if (operator=="%"){
+            document.write("Result is "+(first % second))
+        }   
+         else 
+         {
+        document.write("error")
+     }
+     }
+     }
+     }
+     }
+    
+  
+   
+   
+   
+    
+    
+
+      
+        
+
+    
+    </script>
+</body>
+</html>
