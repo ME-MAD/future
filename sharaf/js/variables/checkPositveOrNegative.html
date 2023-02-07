@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Positive Or Negative</title>
+</head>
+<body>
+    <script>
+     var EnteredNumber  = prompt("Please Enter the Number")
+
+     EnteredNumber = Number(EnteredNumber)
+
+    if (!Number.isNaN(EnteredNumber)) 
+    {
+        if ( EnteredNumber > 0 ) 
+        {
+            document.write("<h2> Positive </h2>")
+        }
+        else if ( EnteredNumber < 0)
+        {
+            document.write("<h2> Negetive </h2>")
+        }
+        else
+        {
+            document.write("<h2> The Number Is Zero </h2>")
+        }
+    }
+    else
+    {
+        document.write("<h2> The Number You Entered Is Incorrect </h2>")
+    }
+    </script>
+</body>
+</html>
