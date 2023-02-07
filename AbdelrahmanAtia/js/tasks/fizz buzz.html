@@ -13,24 +13,24 @@
 
 
   <script>
-     let num = prompt ( "write number" )
-     num = Number ( num )   
+     let number= prompt ( "write number" )
+     number= Number ( number)   
 
-     if ( Number.isNaN ( num ) )
+     if ( Number.isNaN ( number) )
      {
          console.log( "error please write real number" )
      } 
      else 
      {
-         if ( num % 3 + num % 5 === 0)
+         if (number% 3 == 0 && number% 5 == 0)
          {
              console.log ( "the number is fizzbuzz" )
          }
-         else if ( num % 3 === 0 )
+         else if ( number% 3 === 0 )
          {
              console.log ( "the number is fizz" )
          }
-         else if ( num % 5 === 0 )
+         else if ( number% 5 === 0 )
          {
              console.log ( "the number is buzz" )
          }
