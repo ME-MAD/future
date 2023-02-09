@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</head>
+
+<body>
+    <script>
+        let num1 = Number(prompt("write the num1"));
+        let num2 = Number(prompt("write the num2"));
+
+        if (Number.isNaN(num1) || Number.isNaN(num2)) {
+            document.write("error")
+        }
+        else {
+            if (num1 > num2) {
+                document.write(num1);
+            }
+            else if (num1 < num2) {
+                document.write(num2);
+            }
+            else {
+                document.write("The two numbers equal each other");
+            }
+        }
+
+    </script>
+</body>
+
+</html>
