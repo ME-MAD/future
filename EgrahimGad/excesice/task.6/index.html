@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</head>
+
+<body>
+    <script>
+        let num = prompt("write a num")
+        num = number(num)
+
+
+        if (Number.isNAN(num)) {
+            document.write("error")
+        }
+        else {
+            if (num % 3 == 0 && num % 5 != 0) {
+                console.log("numberis" + ":" + "fizz");
+            }
+            else if (num % 5 == 0 && num % 3 != 0) {
+                console.log("numberis" + ":" + "bazz")
+            }
+            else if (num % 5 == 0 && num % 3 == 0) {
+                console.log("numberis" + ":" + "fizz" + "bazz")
+            }
+            else {
+                console.log("is-error")
+            }
+        }
+
+    </script>
+</body>
+
+</html>

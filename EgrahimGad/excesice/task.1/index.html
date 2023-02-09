@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</head>
+
+<body>
+    <script>
+        let number1 = prompt("write a num1");
+        let operator = prompt("write an operator");
+        let number2 = prompt("write a num2");
+
+        number1 = Number(number1);
+        number2 = Number(number2);
+
+        // console.log(Number.isNaN(1));
+        if (Number.isNaN(number1) || Number.isNaN(number2)) {
+            console.log("error");
+            document.write("error")
+        }
+        else {
+            if (operator === "+") {
+                let result = number1 + number2;
+
+
+                document.write("the result is:" + number1 + "+" + number2 + "=" + result);
+            }
+            else if (operator === "-") {
+                let result = number1 - number2
+                console.log("the result is:" + number1 + "-" + number2 + "=" + result)
+                document.write("the result is:" + number1 + "-" + number2 + "=" + result)
+            }
+            else if (operator === "%") {
+                result = number1 % number2
+
+                document.write("The result: " + number1 + " " + operator + " " + number2 + " " + " = " + result);
+            }
+            else if (operator === "*") {
+                result = number1 * number2
+                document.write("the reult" + number1 + " " + operator + " " + number2 + " " + "=" + result);
+            }
+
+            else if (operator === "/") {
+                result = number1 / number2
+                document.write("the reult" + number1 + " " + operator + " " + number2 + " " + "=" + result);
+            }
+            else {
+                document.write("the operator is error")
+            }
+
+
+
+
+
+
+        }
+
+    </script>
+</body>
+
+</html>
