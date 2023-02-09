@@ -16,9 +16,11 @@
     <script>
 
     let n = 0
-  
+    let sum = 0 
+
     while(n<5)
     {
+        
         let number = Number (prompt("type your numbers" ))
         if(Number.isNaN(number))
         {
@@ -26,14 +28,15 @@
         }
         else 
         {
-         
-              
+            console.log (number)
+            sum += number
         }
+      
       
       n++
       
     }
-   
+   console.log(sum)
       
   
     </script>
