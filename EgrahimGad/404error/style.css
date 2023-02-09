@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-image: url(https://www.pngkey.com/png/full/212-2123917_404-404-error-icon-png.png);
+    background-size: 80%;
+}
+
+.perant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.error p {
+    font-size: 10em;
+    color: rgb(26, 23, 23);
+
+    box-shadow: 10px 5px 5px black;
+}
+
+.adress-error {
+    display: flex;
+    justify-content: center;
+
+}
+
+.adress-error button {
+    font-family: 'Hanken Grotesk', sans-serif;
+    border-radius: 5px;
+    font-size: 3em;
+    margin-top: 2em;
+    /* background-image: linear-gradient(red, blue); */
+}
