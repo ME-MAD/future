@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let number = prompt ("enter number from 1 to 10")
+        let brithdaypas = prompt ("is ur birthday gone this year ? ")
+        let year = prompt ("enter ur year")
+
+        number = Number(number)
+        number *=2
+        number +=5
+        number *=50
+
+        
+        if( brithdaypas == "yas")
+        {
+            number +=1773
+        }
+        else{
+            number +=1772
+        }
+        
+        
+        number -= year
+        console.log(number);
+        
+
+
+
+    </script>
+</body>
+</html>

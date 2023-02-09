@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+        let num = prompt('Enter A number between 1 and 10')
+        let firstNumber = 0;  
+
+        num = Number(num);
+
+        if(Number.isNaN(num))
+        {
+            alert("enta bethazar")
+            location.reload();
+        }
+
+        if(num > 10 || num < 1)
+        {
+            alert("enta bethazar")
+            location.reload();
+        }
+
+        firstNumber = num;
+
+        num *= 2
+
+        num += 5
+
+        num *= 50
+
+        let hasBirthDayPassed = prompt("Have your birthday passed this year")
+
+        if(hasBirthDayPassed == "yes" || 
+            hasBirthDayPassed == "Yes" || 
+            hasBirthDayPassed == "y" ||
+            hasBirthDayPassed == "Y" ||
+            hasBirthDayPassed == "YES" ||
+            hasBirthDayPassed == "yES" ||
+            hasBirthDayPassed == "yEs" ||
+            hasBirthDayPassed == "YEs" ||
+            hasBirthDayPassed == "YEs" ||
+            hasBirthDayPassed == "1"
+        )
+        {
+            num += 1773
+        }
+        else
+        {
+            num += 1772
+        }
+
+        let birthYear = prompt("Enter Your age Year")
+
+        if(Number.isNaN(birthYear))
+        {
+            alert("enta bethazar")
+            location.reload();
+        }
+
+        num -= birthYear
+
+
+        let age = ( num - ( firstNumber * 100 ) )
+
+        console.log("your age is " + age);
+    </script>
+</body>
+</html>

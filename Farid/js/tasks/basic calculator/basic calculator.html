@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let firname = Number(prompt( "first number" ))
+        let secname = Number(prompt( "second number" ))
+        let operator =prompt ("operator")
+
+        if(Number.isNaN(firname) || Number.isNaN(secname))
+        {
+            document.write("not a number")
+        }
+        else{
+            if(operator=="+")
+            {
+                document.write("reuslt is :" + (firname + secname))
+            }
+
+            else if(operator== "*")
+            {
+                document.write("reuslt is :" + (firname * secname))
+            }
+            else if(operator== "-")
+            {
+                document.write("reuslt is :" + (firname - secname))
+            }
+            else if(operator== "%")
+            {
+                document.write("reuslt is :" + (firname % secname))
+            }
+            else if(operator== "/")
+            {
+                document.write("reuslt is :" + (firname / secname))
+            }
+        }
+    </script>
+</body>
+</html>
