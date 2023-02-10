@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        let num = prompt("write the number")
+        let n = 1;
+
+        num = Number(num)
+        if (Number.isNaN(num)) {
+            document.write("error")
+        }
+        else {
+
+            while (n <= 12) {
+
+                document.write(n + " " + "*" + num + " " + "=" + " " + (n * num) + "<br>")
+                n++
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

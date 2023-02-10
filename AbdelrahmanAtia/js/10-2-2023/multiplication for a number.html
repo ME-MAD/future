@@ -12,32 +12,24 @@
 
 
 
-
     <script>
-
-    let n = 0
-    let sum = 0 
-
-    while(n<5)
-    {
-        let number = Number (prompt("type your numbers" ))
-        if(Number.isNaN(number))
-        {
+         let n = 1
+         let number = Number(prompt("type your number"))
+         if(Number.isNaN(number))
+         {
             console.log( "error please write real number" )
-        }
+        } 
         else 
-        {
-            console.log (number)
-            sum += number
+        {   
+            console.log("multiplication for" + " " + number )
+            while(n <= 12)
+            {
+            console.log (n + " " + "*" + " " + number + " " + "=" + " " + ( n * number))
+            n++
+            }
+
         }
-      
-      
-      n++
-      
-    }
-   console.log(sum)
-      
-  
+    
     </script>
 </body>
 </html>

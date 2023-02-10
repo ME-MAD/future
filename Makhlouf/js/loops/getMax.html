@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        
+        let numberOfInputs = Number(prompt("how many numbers"))
+        let n = 1;
+        let head = 0;
+        let num1;
+
+        while(n <= numberOfInputs)
+        {
+            num1 = Number(prompt("Enter the number : " + n)) //10
+
+            if(num1 > head)
+            {
+                head = num1;
+            }
+
+            n++
+        }
+
+        console.log(head);
+
+    </script>
+</body>
+</html>
