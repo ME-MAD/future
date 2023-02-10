@@ -14,14 +14,31 @@
 </head>
 <body>
    
+   
+
+
 
 
     <script>
-     
+        let num = 1;
+        let number = prompt("write the number");
+        
+        number = Number(number);
 
+        if(Number.isNaN(number))
+        {
+            document.write("Error");
+        }
+        else
+        {
+            while (num <= 12)
+            {
+                document.write("<h1>" + num + " * " + number + " = " + ( num * number) + "</h1>");
+                num++;
+            }
+        }
 
-
+        
     </script>
-    
 </body>
 </html>

@@ -17,7 +17,22 @@
 
 
     <script>
-     
+      let number = prompt("how many numbers")
+      let n = 1;
+      let head = 0;
+      let num1;
+      while(n <= number)
+      {
+        num1 = prompt("Enter the number : " + n)
+
+        if(num1 > head)
+        {
+          head = num1;
+        }
+        n++
+      } 
+      document.write(head);
+
 
 
 
