@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+
+    <style>
+        .red{
+            color: red;
+            font-size: 1.5rem;
+        }
+        .green{
+            color: green;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+        for(let n = 0; n < 10 ; n++)
+        {
+            if(n == 5)
+            {
+                continue;
+            }
+            document.write("<p class='green'>"+ n +"</p>");
+        }
+
+
+        document.write("<p class='red'>End</p>");
+    </script>
+</body>
+</html>

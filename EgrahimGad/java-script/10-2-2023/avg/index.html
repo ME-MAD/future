@@ -8,19 +8,23 @@
 <body>
     <script>
         let n = 0;
-        sum = 0;
-        while (n < 3) {
-            let num = prompt("write the")
-            num = Number(num);
+        let sum = 0;
+        let numbers = Number(prompt("Enter a number of inputs"))
+
+        while (n < numbers) {
+            let num = Number(prompt("write the"))
+
             if (Number.isNaN(num)) {
                 document.write("error")
+                location.reload()
             }
             else {
                 sum += num
-                document.write(sum + "<br>")
             }
+
             n++
         }
+        
         document.write("the avrege" + " " + "(sum/n)" + "=" + sum / n)
     </script>
 </body>

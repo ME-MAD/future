@@ -1,0 +1,36 @@
+:root{
+    --font-color: #1B1036;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: rgba(0, 128, 0, 0.089); */
+}
+
+ul{
+    list-style: none;
+}
+
+.main-top{
+    padding: 2rem 6rem;
+}
+
+.main-top nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-top nav ul{
+    display: flex;
+}
+
+.main-top nav ul li{
+    margin: 0em 1em;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--font-color);
+    text-transform: capitalize;
+}
