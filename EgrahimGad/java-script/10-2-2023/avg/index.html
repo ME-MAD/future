@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</head>
+
+<body>
+    <script>
+        let n = 0;
+        sum = 0;
+        while (n < 3) {
+            let num = prompt("write the")
+            num = Number(num);
+            if (Number.isNaN(num)) {
+                document.write("error")
+            }
+            else {
+                sum += num
+                document.write(sum + "<br>")
+            }
+            n++
+        }
+        document.write("the avrege" + " " + "(sum/n)" + "=" + sum / n)
+    </script>
+</body>
+
+</html>
