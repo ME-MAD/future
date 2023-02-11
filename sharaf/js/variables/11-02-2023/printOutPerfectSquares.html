@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print Out Perfect squares</title>
+</head>
+<body>
+    <script>
+
+      let num = Number( prompt("enter the Number") ) 
+      let result;
+
+      if(!Number.isNaN(num))
+        {
+            while(num > 0)
+            {
+                result = num * num
+                document.write( "<h2>" + result + "</h2>" )
+                num --
+            }
+        }
+        else
+        {
+            document.write("<h2> Check The Number </h2>")
+        }
+
+
+      
+      
+
+
+
+
+
+    </script>
+</body>
+</html>
