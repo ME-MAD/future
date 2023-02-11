@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+    <script>
+        let n = Number(prompt("type yor number :"))
+
+        if(Number.isNaN(n))
+        {
+            console.log( "error please write real number" )
+        } 
+        else{
+            console.log( "perfect squares before number" + " " + n + " " + "is :" )
+
+            for (let number = 1 ; (number*number) <= n ; number++)
+            {   
+            
+                console.log( (number*number) )
+            }
+        }
+    </script>
+</body>
+</html>
