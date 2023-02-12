@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let num = Number(prompt("write anumber"));
+
+        if (Number.isNaN(num)) {
+            Document.write("error")
+        }
+
+
+        else {
+            for (let n = 1; n <= num; n++) {
+                document.write("<br>")
+                for (let star = 1; star <= n; star++) {
+                    document.write("*")
+                }
+            }
+
+
+        }
+    </script>
+</body>
+
+</html>
