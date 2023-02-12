@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Document</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./fonts/font.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="main-top">
         <nav>
@@ -20,11 +24,37 @@
                 <li>pages</li>
                 <li>contact</li>
             </ul>
+
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="nav-blanket"></div>
         </nav>
     </div>
-    
+
     <div class="main-mid"></div>
     <div class="main-bot"></div>
 
+
+    <script>
+        let burger = document.querySelector('.main-top nav .burger')
+        let navUL = document.querySelector('.main-top nav ul')
+        let navBlanket = document.querySelector('.main-top nav .nav-blanket')
+
+        burger.addEventListener('click', function(){
+            navUL.classList.add('active')
+            navBlanket.classList.add('active')
+        })
+
+        navBlanket.addEventListener('click', function(){
+            navUL.classList.remove('active')
+            navBlanket.classList.remove('active')
+        })
+
+
+    </script>
 </body>
+
 </html>

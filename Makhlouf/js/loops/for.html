@@ -17,17 +17,35 @@
 <body>
     
     <script>
-        for(let n = 0; n < 10 ; n++)
+        let ThisIsMyName; //pascal case
+        let thisIsMyName; // camel case
+        let this_is_my_name; //snake case
+
+        
+
+        
+        for(let n = 1; n <= 10 ; n++)
         {
-            if(n == 5)
+            if( n == 5 )
             {
                 continue;
             }
-            document.write("<p class='green'>"+ n +"</p>");
+            document.write("<h1>"+ n +"</h1>")
         }
-
-
+        
         document.write("<p class='red'>End</p>");
+
+        // for(let n = 0; n < 10 ; n++)
+        // {
+        //     if(n == 5)
+        //     {
+        //         continue;
+        //     }
+        //     document.write("<p class='green'>"+ n +"</p>");
+        // }
+
+
+        
     </script>
 </body>
 </html>

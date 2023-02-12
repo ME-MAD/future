@@ -20,20 +20,21 @@
 
 
     <script>
-        let num = Number(prompt("Enter a number")); // 90
-        let sum = 0 ;
-        let n = 1 ;
+        let num = Number(prompt("Enter a number"));
 
         document.write( " <h1> " + "The number is :" + " " + num + " </h1> " );
 
-        while (num >= (sum + n) )
+        for (i = 0; i <= num; i++ )
         {
-            sum = n * n ;
+            document.write("<br>");
 
-            document.write( "<h1> " + sum + " </h1>");
-
-            n++ ;
+            for ( j = 0; j < i; j++ )
+            {
+                document.write( " * " );
+            }
+                  
         }
+      
         
     </script>
 </body>

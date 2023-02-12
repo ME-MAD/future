@@ -8,8 +8,15 @@
 
 <body>
     <script>
-        for (let n = 1; n < 10; n++) {
-            document.write(n * n + "<br>")
+        let num = Number(prompt("write the number"))
+
+        if (Number.isNaN(num)) {
+            document.write("error")
+        }
+        else {
+            for (let n = 1; (n * n); n++) {
+                document.write(n * n + "<br>")
+            }
         }
     </script>
 </body>
