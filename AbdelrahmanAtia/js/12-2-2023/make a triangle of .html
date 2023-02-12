@@ -11,10 +11,9 @@
 
 
 
-
-
-    <script>   
+    <script>
         let n = Number(prompt("type yor number :"))
+        let stars = "*"
         
         if(Number.isNaN(n))
         {
@@ -22,10 +21,14 @@
         }
         else
         {
-        for (let number = 1 ;  number <= n ; number++)
+        for (let number = 0 ;  number < n ; number++)
         {      
+             
                
-            console.log(number+" " + "*" + " " + number + " " +"="+ " " + (number*number))        
+                document.write("<h2>" +stars+"</h2>")   
+                stars += "*"
+             
+                 
         }
         }
     </script>
