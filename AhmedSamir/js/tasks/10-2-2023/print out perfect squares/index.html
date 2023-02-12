@@ -21,16 +21,16 @@
 
     <script>
         let num = Number(prompt("Enter a number")); // 90
-        let sum = 0 ;
-        let n = 1 ;
+        let lastSquare = 1 ;
+        let n = 1;
 
         document.write( " <h1> " + "The number is :" + " " + num + " </h1> " );
 
-        while (num >= (sum + n) )
+        while (num > (lastSquare + n))
         {
-            sum = n * n ;
+            lastSquare = n * n ;
 
-            document.write( "<h1> " + sum + " </h1>");
+            document.write( "<h1> " + lastSquare + " </h1>");
 
             n++ ;
         }
