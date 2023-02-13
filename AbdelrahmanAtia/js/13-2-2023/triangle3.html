@@ -10,6 +10,7 @@
     
 
 
+
     <script>
         let n = Number(prompt("type yor number  :"))
         let stars = 1
@@ -28,8 +29,8 @@
         function triangle_of_numbers () {
             for (let number = 1 ;  number <= n ; number++)
         {          
-               ( document.write("<h2>" +stars+"</h2>" )* stars )
-                stars = " " + (number+1 )         
+                document.write("<h2>" +stars+"</h2>")   
+                stars += " " + (number + 1)         
         }
         }
     </script>
