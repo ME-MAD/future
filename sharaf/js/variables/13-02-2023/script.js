@@ -1,5 +1,6 @@
 function FizzBuzz() 
 {
+    var num = Number(prompt("Enter The Number"))
     if (!Number.isNaN(EnteredNumber))
         {
             for (let i = 0; i <= num; i++) {
@@ -33,6 +34,7 @@ function FizzBuzz()
 
 function PrintOutTriangle_2()
 {
+    var num = Number(prompt("Enter The Number"))
     if (!Number.isNaN(EnteredNumber)){
          
         for (let i = 1; i <= num; i++) 
