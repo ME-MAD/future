@@ -13,10 +13,10 @@
 
 
 
-
-
         function printouttriangle() {
+
             let num = Number(prompt("write anumber"));
+            sum = 0;
 
             if (Number.isNaN(num)) {
                 Document.write("error")
@@ -24,10 +24,14 @@
             else {
                 for (let n = 1; n <= num; n++) {
                     document.write("<br>")
+                    sum += n
                     for (let number = 1; number <= n; number++) {
                         document.write(number)
+                        document.write(sum)
                     }
+
                 }
+
             }
         }
     </script>
