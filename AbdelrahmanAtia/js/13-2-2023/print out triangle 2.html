@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+        let n = Number(prompt("type yor number of stars :"))
+        let stars = 1
+        
+        if(Number.isNaN(n))
+        {
+            console.log( "error please write real number" )
+        }
+        else
+        {
+        for (let number = 1 ;  number <= n ; number++)
+        {      
+             
+               
+                document.write("<h2>" +stars+"</h2>")   
+                stars += " " + (number + 1)
+             
+                 
+        }
+        }
+    </script>
+</body>
+</html>
