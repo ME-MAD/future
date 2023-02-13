@@ -7,42 +7,39 @@
     <title>Document</title>
 </head>
 <body>
+    
     <script>
-        let number = Number(prompt("enter number"))
+
         FizzJung()
 
-
-
-         function FizzJung()
+        function FizzJung()
         {
-            for (let n =1; n<= number; n++) {
-                number =Number(number)
-
-if(Number.isNaN(number))
-{
-    console.log("error");
-}
-else{
-    if(n %15 ==0)
-    {
-        console.log("fizz buzz");
-    }
-    else if (n %3 ==0)
-    {
-        console.log("buzz");
-    }
-    else if(n %5==0)
-    {
-        console.log("fizz ");
-    }
-    else {
-        console.log(n);
-    }
-
-}
+            let number = Number(prompt("enter number"))
+            if(Number.isNaN(number))
+            {
+                console.log("error");
             }
-       
-    }
+            else{
+                for (let n =1; n <= number; n++) {
+
+                    if(n % 15 == 0)
+                    {
+                        console.log("fizz buzz");
+                    }
+                    else if (n % 3 ==0)
+                    {
+                        console.log("buzz");
+                    }
+                    else if(n % 5 == 0)
+                    {
+                        console.log("fizz ");
+                    }
+                    else {
+                        console.log(n);
+                    }
+                }
+            }
+        }
     </script>
 </body>
 </html>
