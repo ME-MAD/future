@@ -12,8 +12,8 @@
 
 
     <script>
-        let n = Number(prompt("type yor number of stars :"))
-        let stars = "*"
+        let n = Number(prompt("type yor number  :"))
+        let stars = 1
         
         if(Number.isNaN(n))
         {
@@ -21,11 +21,17 @@
         }
         else
         {
-            for (let number = 0 ;  number < n ; number++)
-            {      
+           triangle_of_numbers()
+        } 
+
+
+        
+        function triangle_of_numbers () {
+            for (let number = 1 ;  number <= n ; number++)
+        {          
                 document.write("<h2>" +stars+"</h2>")   
-                stars += " " + "*"
-            }
+                stars += " " + (number + 1)         
+        }
         }
     </script>
 </body>
