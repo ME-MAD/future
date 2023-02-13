@@ -1,7 +1,7 @@
 function FizzBuzz() 
 {
     var num = Number(prompt("Enter The Number"))
-    if (!Number.isNaN(EnteredNumber))
+    if (!Number.isNaN(num))
         {
             for (let i = 0; i <= num; i++) {
 
@@ -35,7 +35,7 @@ function FizzBuzz()
 function PrintOutTriangle_2()
 {
     var num = Number(prompt("Enter The Number"))
-    if (!Number.isNaN(EnteredNumber)){
+    if (!Number.isNaN(num)){
          
         for (let i = 1; i <= num; i++) 
         {
@@ -50,5 +50,4 @@ function PrintOutTriangle_2()
     {
         document.write("<h2> The Number You Entered Is Incorrect </h2>")
     }
-
 }
