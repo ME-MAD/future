@@ -20,20 +20,41 @@
 
 
     <script>
-        let num = Number(prompt("Enter a number")); // 90
-        let lastSquare = 1 ;
-        let n = 1;
+            fizzBuzz();
+        
+        
 
-        document.write( " <h1> " + "The number is :" + " " + num + " </h1> " );
 
-        while (num > (lastSquare + n))
+
+        function fizzBuzz () 
         {
-            lastSquare = n * n ;
+            let num = Number(prompt("Enter a number"));
 
-            document.write( "<h1> " + lastSquare + " </h1>");
+            document.write( " <h1> " + "The number is :" + " " + num + " </h1> " );
 
-            n++ ;
+    
+            for (let i = 1; i <= num; i++) 
+            {
+                if (( i % 3 == 0 ) && ( i % 5 == 0 ))
+                {
+                    document.write( " FizzBuzz " ) ;
+                }
+                else if (i % 3 == 0)
+                {
+                    document.write( " Fizz " ) ;
+                }
+                else if (i % 5 == 0)
+                {
+                    document.write("Buzz") ;
+                }  
+                else{
+                    document.write( i )
+                }
+                document.write( "<br>" )
+            }
+        
         }
+
         
     </script>
 </body>

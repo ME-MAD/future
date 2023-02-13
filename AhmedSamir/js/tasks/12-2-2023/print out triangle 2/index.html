@@ -20,19 +20,31 @@
 
 
     <script>
-        let num = Number(prompt("Enter a number")); // 90
-        let lastSquare = 1 ;
-        let n = 1;
+
+
+        printOutTriangle();
+
+
+
+
+
+        
+        function printOutTriangle() 
+        {
+            let num = Number(prompt("Enter a number"));
 
         document.write( " <h1> " + "The number is :" + " " + num + " </h1> " );
 
-        while (num > (lastSquare + n))
+        for (i = 1; i <= num; i++ )
         {
-            lastSquare = n * n ;
 
-            document.write( "<h1> " + lastSquare + " </h1>");
+            for ( j = 1; j <= i; j++ )
+            {
+                document.write( j + " " );
+            }
 
-            n++ ;
+            document.write("<br>");
+        }
         }
         
     </script>
