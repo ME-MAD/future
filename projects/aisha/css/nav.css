@@ -1,32 +1,4 @@
-:root {
-    --font-color: #1B1036;
-    --color1: #645CBB;
-    --color2: #A084DC;
-    --color3: #BFACE2;
-    --color4: #EBC7E6;
-    --white: white;
-    --color5: #D61355;
-    --color6: #30E3DF;
-}
 
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    /* background-color: rgba(0, 128, 0, 0.089); */
-}
-
-body {
-    font-family: 'Tajawal', sans-serif;
-}
-
-ul {
-    list-style: none;
-}
-
-.main-top {
-    padding: 2rem 6rem;
-}
 
 .main-top nav {
     display: flex;
@@ -43,9 +15,12 @@ ul {
     margin: 0em 1em;
     font-size: 1.2rem;
     font-weight: 600;
-    color: var(--font-color);
     text-transform: capitalize;
     letter-spacing: 1px;
+}
+
+.main-top nav ul li a{
+    color: var(--font-color);
 }
 
 .main-top nav .nav-blanket{
