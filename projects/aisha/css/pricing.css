@@ -1,0 +1,119 @@
+body{
+    box-sizing: border-box;
+}
+
+.continair {
+    width: 100%;
+}
+.father {
+
+box-sizing: border-box;
+
+}
+.first h4{
+
+    text-align: center;
+    padding: 6em;
+    color: #f22fa4;
+}
+
+.first h2{
+
+    text-align: center;
+
+}
+.parnt {
+
+    width: 100%;
+    height: 25rem;
+    border-radius: 5%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+}
+.parnt .son1 {
+    border: solid;
+    width: 25%;
+    border-radius: 5%;
+}
+
+.parnt .son1 h3 
+{
+
+    text-align: center;
+    justify-content: center;
+    padding: 3rem;
+
+}
+.parnt .son1 h1 
+
+{
+text-align: center;
+    color: #f22fa4;
+    padding: -1rem;
+}
+.parnt .son1 h5{
+
+    text-align: center;
+    justify-content: center;
+    padding: 4rem ;
+    color: rgb(199 196 197);
+
+}
+.parnt .son1 .button {
+
+    justify-content: center;
+    text-align: center;
+
+}
+.parnt .son1 .button button {
+
+    background-color: rgb(58 63 248);
+    color: white;
+}
+
+
+.parnt .son2 {
+    border: solid;
+    border-radius: 5%;
+    width: 25%;
+    background-color: #1c0f34;
+}
+.parnt .son2 h3 
+{
+
+    text-align: center;
+    justify-content: center;
+    padding: 3rem;
+    color: white;
+
+}
+.parnt .son2 h1 
+
+{
+text-align: center;
+    color: #f22fa4;
+    padding: -1rem;
+}
+
+.parnt .son2 h5{
+
+    text-align: center;
+    justify-content: center;
+    padding: 4rem ;
+    color: rgb(199 196 197);
+
+}
+
+.parnt .son2 .button {
+
+    justify-content: center;
+    text-align: center;
+
+}
+.parnt .son2 .button button {
+
+    background-color: rgb(58 63 248);
+    color: white;
+}
