@@ -2,37 +2,40 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 
 <body>
     <script>
+        let num = Number(prompt("write the number"))
+        sum = 1;
+        tringle4()
 
-        printouttriangle()
-
-
-
-
-        function printouttriangle() {
-
-            let num = Number(prompt("write anumber"));
-
+        function tringle4() {
             if (Number.isNaN(num)) {
-                Document.write("error")
+                document.write("error")
             }
             else {
                 for (let n = 1; n <= num; n++) {
                     document.write("<br>")
-<<<<<<< HEAD
 
-=======
->>>>>>> e268c16d22b5781cab810677ae4e34c00d9ee3e5
                     for (let number = 1; number <= n; number++) {
-                        document.write(number)
+                        document.write(sum + " ")
+                        sum++
                     }
+
                 }
+
             }
         }
+
+
+
+
+
     </script>
 </body>
 

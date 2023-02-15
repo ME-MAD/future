@@ -20,15 +20,21 @@
         
         for (i = 1; i <= num; i++ )
         {
-
-            for ( j = 1; j <= i; j++ )
-            {
-                document.write( number  );
-                number = (number+1)
-            }
+            resultFun () 
             document.write("<br>");
         }
         
+        function resultFun() 
+        {
+            for ( j = 1; j <= i; j++ )
+            {
+                document.write(" ( " + number + " ) " );
+                number ++
+            }
+            
+        }
+
+
         
     </script>
 </body>
