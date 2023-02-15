@@ -11,22 +11,26 @@
 <body>
     <script>
         let num = Number(prompt("write the number"))
-        sum = 1;
-        tringle4()
+        tringle4(num)
+        tringle4(num)
+        tringle4(num)
+        tringle4(num)
 
-        function tringle4() {
+
+
+
+        function tringle4(num) {
+            let sum = 1;
             if (Number.isNaN(num)) {
                 document.write("error")
             }
             else {
                 for (let n = 1; n <= num; n++) {
-                    document.write("<br>")
-
                     for (let number = 1; number <= n; number++) {
                         document.write(sum + " ")
                         sum++
                     }
-
+                    document.write("<br>")
                 }
 
             }
