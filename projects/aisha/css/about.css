@@ -1,3 +1,6 @@
+.gray{
+    color: gray;
+}
 .header{
     background-color:#1B1036;;
     background-image: url(./../images/headerAbout.png);
@@ -15,4 +18,39 @@
     position: absolute;
     bottom: 1.8em;
     left: 4em;
+}
+.head{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5em;
+}
+.head .image{
+    width: 35%;
+}
+.head .image img{
+    width: 100%;
+    border-radius: 30px;
+}
+.head .par h3{
+    color: #E71DA3;
+}
+.head .par{
+    margin-left: 1.5em;
+}
+.head .par h2{
+    font-size:35px;
+}
+.image .par-2{
+    display: flex;
+    justify-content: space-between;
+}
+.image .par-2 h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.image .par-2 h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: .3em;
 }
