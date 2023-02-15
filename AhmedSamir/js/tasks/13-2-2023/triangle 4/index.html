@@ -22,9 +22,9 @@
     <script>
 
         let num = Number(prompt("Enter a number"));
-        let sum = 0 ;
+        let sum = 0; // evil
 
-        triangle4(num) ;
+        triangle4(num);
 
         
         function triangle4(num)
@@ -32,10 +32,10 @@
             document.write( " <h1> " + "The number is :" + " " + num + " </h1> " );
 
             for (i = 1; i <= num; i++ )
-        {
-            printNum(i);
-            document.write("<br>");
-        }
+            {
+                printNum(i);
+                document.write("<br>");
+            }
         }
 
         function printNum(num)

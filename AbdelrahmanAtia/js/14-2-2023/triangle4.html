@@ -16,29 +16,70 @@
     <script>
         
       
-        let num = Number(prompt("Enter a number"));
+        let num = Number(prompt("Enter a number")); // 7
+        
         let result = triangle(num)
-        document.write( result)
+
+        document.write( result )
+
+
+        
+        let x = Number(prompt("Enter a number")); // 7
+
+        let s = triangle(x)
+
+        document.write( s )
+
+        
+
+        // function printUntile(num)
+        // {
+        //     let sum = 1;
+        //     for(let i = 1; i <= num; i++)
+        //     {
+        //         for(let j = 1; j <= i; j++)
+        //         {
+        //             document.write( sum + " ");
+        //             sum++;
+        //         }
+        //         document.write("<br>")
+        //     }
+        // }
+
+
+
+
+
+
+
+       
 
         function triangle(num) 
         {
             let result = ""
+            let rows = 1;
+            let sum = 1;
+
             for (i = 1; i <= num; i++ )
             {
-                 result += print_number(num)
-                 result += ("<br>");
+                result += print_number(i, sum)
+                sum += i;
+                result += "<br>"
             }
+
             return result
         }
-        function print_number(num) 
+
+        function print_number(num, sum) // 1
         {
-            let number = 1
             let result = ""
+
             for ( j = 1; j <= num; j++ )
             {
-                 result=( number  );
-                 result = (number+1)
+                result += sum + " "
+                sum++
             }
+
             return result
         }
         
