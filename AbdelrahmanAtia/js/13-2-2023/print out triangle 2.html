@@ -10,28 +10,50 @@
     
 
 
-
     <script>
-        let n = Number(prompt("type yor number  :"))
+        // let n = Number(prompt("type yor number  :"))
         let stars = 1
         
-        if(Number.isNaN(n))
+        if(false)
         {
             console.log( "error please write real number" )
         }
         else
         {
-           triangle_of_numbers()
+            printRow()
         } 
 
-
+        // 1
+        // 1 2
+        // 1 2 3
+        // 1 2 3 4
+        // 1 2 3 4 5
         
+
         function triangle_of_numbers () {
             for (let number = 1 ;  number <= n ; number++)
         {          
-                document.write("<h2>" +stars+"</h2>")   
-                stars += " " + (number + 1)         
+               document.write("<h2>" +stars+"</h2>" )  
+                stars = " " + (number+1 )         
         }
+
+        //5
+        // 1 2 3 4 5
+
+        // 6
+        // 1 2 3 4 5 6
+        function printRow()
+        {
+            for(let n = 1; n <= 10; n++)
+            {
+                for(let i = 1; i <= n; i++)
+                {
+                    document.write(n + " ");
+                }
+                document.write("<br>")
+            }
+
+        } 
         }
     </script>
 </body>

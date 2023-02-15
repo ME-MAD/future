@@ -51,3 +51,30 @@ function PrintOutTriangle_2()
         document.write("<h2> The Number You Entered Is Incorrect </h2>")
     }
 }
+
+
+
+
+
+
+
+function Training() 
+{
+    var num = Number(prompt("Enter The Number"))
+    
+    if(!Number.isNaN(num)) 
+    {
+        for (let i = 1; i <= num; i++)
+        {
+            for (let j = 1; j <= i; j++) 
+            {
+            document.write(i)
+            }
+         document.write("<br>")
+        }    
+    }
+    else
+    {
+        Document.write("The Number Is Not Right ")
+    }
+}

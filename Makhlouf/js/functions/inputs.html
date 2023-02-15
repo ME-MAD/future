@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script src="../helper.js"></script>
+
+    <script>
+
+        // 1
+        // 2 2
+        // 3 3 3
+        // 4 4 4 4
+        // 5 5 5 5 5
+
+        let n = Number(prompt("enter your number"))
+
+        let result = tiangle3(n);
+
+        document.write(result);
+
+        function tiangle3(n)
+        {
+            let result = "";
+            for(let i = 1; i <= n; i++)
+            {
+                result += printNum(i)
+                result += "<br>"
+            }
+            return result
+        }
+
+
+        function printNum(n)
+        {
+            let result = "";
+            for(let i = 1; i <= n; i++)
+            {
+                result += n + "";
+            }
+            return result;
+        }
+
+        
+        // let n = Number(prompt("enter your number"))
+
+        // tiangle3(n);
+
+        // function tiangle3(n)
+        // {
+        //     for(let i = 1; i <= n; i++)
+        //     {
+        //         printNum(i)
+        //         document.write("<br>")
+        //     }
+        // }
+
+
+        // function printNum(n)
+        // {
+        //     for(let i = 1; i <= n; i++)
+        //     {
+        //         document.write(n + " "); // return
+        //     }
+        // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // let number = Number(prompt("enter number"))
+
+        // if(validateNumber(number))
+        // {
+        //     for (let n =1; n <= number; n++) 
+        //     {
+        //         console.log(calculateFizzBuzz(n));
+        //     }
+        // }
+
+
+        // function calculateFizzBuzz(n)
+        // {
+        //     if(n % 15 == 0)
+        //     {
+        //         return "fizz buzz";
+        //     }
+        //     else if (n % 3 ==0)
+        //     {
+        //         return "buzz";
+        //     }
+        //     else if(n % 5 == 0)
+        //     {
+        //         return "fizz ";
+        //     }
+        //     else 
+        //     {
+        //         return n;
+        //     }
+        // }
+
+
+        // function validateNumber(number)
+        // {
+        //     if(Number.isNaN(number))
+        //     {
+        //         return false;
+        //     }
+        //     else
+        //     {
+        //         return true;
+        //     }
+        // }
+
+
+
+
+
+        // if(Number.isNaN(number))
+        // {
+        //     console.log("error");
+        // }
+        // else{
+        //     for (let n =1; n <= number; n++) {
+
+        //         if(n % 15 == 0)
+        //         {
+        //             console.log("fizz buzz");
+        //         }
+        //         else if (n % 3 ==0)
+        //         {
+        //             console.log("buzz");
+        //         }
+        //         else if(n % 5 == 0)
+        //         {
+        //             console.log("fizz ");
+        //         }
+        //         else {
+        //             console.log(n);
+        //         }
+        //     }
+        // }
+    </script>
+</body>
+</html>

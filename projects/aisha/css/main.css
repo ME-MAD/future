@@ -1,0 +1,61 @@
+:root {
+    --font-color: #1B1036;
+    --color1: #645CBB;
+    --color2: #A084DC;
+    --color3: #BFACE2;
+    --color4: #EBC7E6;
+    --white: white;
+    --color5: #D61355;
+    --color6: #30E3DF;
+    --blue: #3c48ff;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: rgba(0, 128, 0, 0.089); */
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    border: none;
+    padding: 0.8em 2.5em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.main-top {
+    padding: 2rem 6rem;
+}
+
+@media only screen and (max-width: 1200px)
+{
+    .main-top {
+        padding: 2rem 3rem;
+    }
+}
+
+@media only screen and (max-width: 992px)
+{
+    .main-top {
+        padding: 2rem 1rem;
+    }
+}

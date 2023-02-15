@@ -10,14 +10,19 @@
     <script>
 
         let number = prompt ( "enter numbers" )
-        number =Number (number)
+        FizzJung()
+        
+        function FizzJung()
+
+        {
+        number =Number(number)
 
         if(Number.isNaN(number))
         {
             console.log("error");
         }
         else{
-            if(number %5==0 && number %15 ==0)
+            if(number %5==0 && number %15 == 0)
             {
                 console.log("fizz");
             }
@@ -34,6 +39,7 @@
             }
 
         }
+    }
     </script>
 </body>
 </html>
