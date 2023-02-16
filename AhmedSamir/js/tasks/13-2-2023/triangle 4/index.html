@@ -21,30 +21,35 @@
 
     <script>
 
-        let num = Number(prompt("Enter a number"));
-        let sum = 0; // evil
+        let num = Number(prompt("write the number"));
 
-        triangle4(num);
+        tringle4(num);
 
-        
-        function triangle4(num)
+
+
+
+        function tringle4(num) 
         {
-            document.write( " <h1> " + "The number is :" + " " + num + " </h1> " );
+            let sum = 1;
 
-            for (i = 1; i <= num; i++ )
+            if (Number.isNaN(num))
             {
-                printNum(i);
-                document.write("<br>");
+                document.write("error");
+            }
+            else {
+                for (let n = 1; n <= num; n++) 
+                {
+                    for (let number = 1; number <= n; number++)
+                    {
+                        document.write(sum + " ");
+                        sum++
+                    }
+                    document.write("<br>");
+                }
+
             }
         }
 
-        function printNum(num)
-        {
-            for ( j = 1; j <= i; j++ )
-            {
-                document.write( ++sum + " " );
-            }
-        }
 
 
         
