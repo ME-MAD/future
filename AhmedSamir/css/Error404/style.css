@@ -1,6 +1,6 @@
 html{
    
-    background-color: #060818;
+    /* background-color: #060818; */
 }
 .container .text{
 	display: flex;
@@ -85,10 +85,10 @@ html{
     width: 90%;
 }
 .container .photo img{
-    width: 25%;
+    width: 24%;
 }
 .container .photo .zero{
-    color: #3079ed; font-weight:bold; font-size:3em;
+    	color: #3079ed; font-weight:bold; font-size:3em;
 		animation-name: focus-in-contract;
 		animation-duration: 2.2s;
 		animation-timing-function: ease;
