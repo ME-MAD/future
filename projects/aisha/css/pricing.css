@@ -3,6 +3,7 @@ body{
 }
 
 .continair {
+
     width: 100%;
 }
 .father {
@@ -13,14 +14,15 @@ box-sizing: border-box;
 .first h4{
 
     text-align: center;
-    padding: 6em;
+    padding: 4em;
     color: #f22fa4;
+
 }
 
 .first h2{
 
     text-align: center;
-
+    font-size: 3rem;
 }
 .parnt {
 
@@ -36,6 +38,9 @@ box-sizing: border-box;
     border: solid;
     width: 25%;
     border-radius: 5%;
+    margin-left: 10rem;
+    font-size: 19px;
+    height: 28rem;
 }
 
 .parnt .son1 h3 
@@ -76,8 +81,10 @@ text-align: center;
 
 .parnt .son2 {
     border: solid;
-    border-radius: 5%;
     width: 25%;
+    border-radius: 5%;
+    font-size: 19px;
+    height: 28rem;
     background-color: #1c0f34;
 }
 .parnt .son2 h3 
@@ -102,7 +109,7 @@ text-align: center;
     text-align: center;
     justify-content: center;
     padding: 4rem ;
-    color: rgb(199 196 197);
+    color: rgb(248, 237, 241);
 
 }
 
@@ -113,6 +120,51 @@ text-align: center;
 
 }
 .parnt .son2 .button button {
+
+    background-color: rgb(58 63 248);
+    color: white;
+
+}
+
+.parnt .son3 {
+    border: solid;
+    width: 25%;
+    border-radius: 5%;
+    font-size: 19px;
+    height: 28rem;
+    margin-right: 10rem;
+}
+
+.parnt .son3 h3 
+{
+
+    text-align: center;
+    justify-content: center;
+    padding: 3rem;
+
+}
+.parnt .son3 h1 
+
+{
+text-align: center;
+    color: #f22fa4;
+    padding: -1rem;
+}
+.parnt .son3 h5{
+
+    text-align: center;
+    justify-content: center;
+    padding: 4rem ;
+    color: rgb(199 196 197);
+
+}
+.parnt .son3 .button {
+
+    justify-content: center;
+    text-align: center;
+
+}
+.parnt .son3 .button button {
 
     background-color: rgb(58 63 248);
     color: white;
