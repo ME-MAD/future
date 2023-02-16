@@ -1,24 +1,7 @@
 .gray{
     color: gray;
 }
-.header{
-    background-color:#1B1036;;
-    background-image: url(./../images/headerAbout.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-    position: relative;
-}
-.header h2{
-    color: white;
-    text-transform: capitalize;
-    font-size: 60px;
-    font-weight: 800;
-    line-height: 1.2em;
-    position: absolute;
-    bottom: 1.8em;
-    left: 4em;
-}
+
 .head{
     display: flex;
     width: 100%;
