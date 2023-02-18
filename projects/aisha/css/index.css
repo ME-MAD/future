@@ -1,16 +1,16 @@
-.elementor-section  { 
+.elementor-section {
     display: flex;
     text-align: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.elementor-section .elementor-item{
+.elementor-section .elementor-item {
     width: 20%;
 }
 
 .elementor-section p {
- color: var(--gray);
+    color: var(--gray);
 }
 
 .elementor-section h2 {
@@ -20,6 +20,7 @@
     line-height: 1.4em;
     margin: 1em 0em;
 }
+
 .elementor-section .elementor-item .img_back_ground {
     background-position: center;
     background-repeat: no-repeat;
@@ -29,7 +30,8 @@
     justify-content: center;
     align-items: center;
 }
-.elementor-section .elementor-item .img_back_ground img{
+
+.elementor-section .elementor-item .img_back_ground img {
     width: 45px;
     height: 45px;
 }
@@ -37,20 +39,22 @@
 .elementor-section .elementor-item #online {
     background-image: url(../images/path6793-3.png);
 }
+
 .elementor-section .elementor-item #home {
     background-image: url(../images/path7839.png);
 }
+
 .elementor-section .elementor-item #offlin {
     background-image: url(../images/path8223.png);
 }
+
 .elementor-section .elementor-item #special {
     background-image: url(../images/path8140.png);
 }
 
 
-@media only screen and (max-width: 780px)
-{
-    .elementor-section .elementor-item{
+@media only screen and (max-width: 780px) {
+    .elementor-section .elementor-item {
         width: 45%;
         margin-bottom: 4em;
     }
@@ -69,18 +73,18 @@
 
 
 
-
-header{
+header {
     display: flex;
     justify-content: space-between;
     padding: 8em 0em;
 }
 
-header .header-paragraph, header .header-image-con{
+header .header-paragraph,
+header .header-image-con {
     width: 49%;
 }
 
-header .header-image-con img{
+header .header-image-con img {
     transform: translateX(800px);
     opacity: 0;
 
@@ -90,26 +94,26 @@ header .header-image-con img{
     animation-timing-function: ease-out;
 }
 
-@keyframes imageOnPageOpenAnimation{
-    100%{
+@keyframes imageOnPageOpenAnimation {
+    100% {
         transform: translateX(0px);
         opacity: 1;
     }
 }
 
-header .header-paragraph{
+header .header-paragraph {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 4em 0em;
 }
 
-header .header-paragraph h2{
+header .header-paragraph h2 {
     color: #e71da3;
     font-size: 1.3rem;
 }
 
-header .header-paragraph h3{
+header .header-paragraph h3 {
     font-size: 3.8rem;
     font-weight: 900;
     color: var(--font-color);
@@ -117,7 +121,8 @@ header .header-paragraph h3{
 }
 
 
-header .header-paragraph .join-btn,header .header-paragraph .contact-btn{
+header .header-paragraph .join-btn,
+header .header-paragraph .contact-btn {
     font-size: 1.2rem;
     font-weight: 700;
     margin-right: 0.5em;
@@ -128,7 +133,8 @@ header .header-paragraph .join-btn,header .header-paragraph .contact-btn{
 }
 
 
-header .header-paragraph .join-btn:hover , header .header-paragraph .contact-btn:hover{
+header .header-paragraph .join-btn:hover,
+header .header-paragraph .contact-btn:hover {
     background-color: var(--blue);
     color: var(--white);
     box-shadow: rgba(60, 72, 255, 0.4) 0px 5px, rgba(60, 72, 255, 0.3) 0px 10px, rgba(60, 72, 255, 0.2) 0px 15px, rgba(60, 72, 255, 0.1) 0px 20px, rgba(60, 72, 255, 0.05) 0px 25px;
@@ -136,14 +142,156 @@ header .header-paragraph .join-btn:hover , header .header-paragraph .contact-btn
 }
 
 
-@media only screen and (max-width: 870px)
-{
-    header{
+@media only screen and (max-width: 870px) {
+    header {
         flex-direction: column-reverse;
     }
 
-    header .header-paragraph, header .header-image-con{
+    header .header-paragraph,
+    header .header-image-con {
         width: 100%;
         text-align: center;
     }
+}
+
+
+
+
+
+
+
+.elementor-process {
+    text-align: center;
+    padding: 4em 0em;
+}
+
+.elementor-process h5 {
+    color: #e71da3;
+    font-size: 1.3rem;
+}
+
+.elementor-process h3 {
+    font-size: 2rem;
+    color: var(--e-global-color-7912297);
+    ;
+    margin: 2rem 0rem;
+}
+
+.page-process {
+    display: flex;
+    background-color: #1B1036;
+    justify-content: space-evenly;
+    padding: 8em 4em 16em 4em;
+    position: relative;
+}
+
+.page-process .select-cours .icon-1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/path7839.png);
+
+}
+
+.page-process .select-cours .icon-1 img {
+    height: 45px;
+    width: 45px;
+    text-align: center;
+}
+
+.page-process .select-cours h3,
+.page-process .select-cours p {
+    color: white;
+    text-align: center;
+}
+
+.page-process .select-cours h3 {
+    margin: 1em 0em;
+}
+
+
+.page-process .contact-us .icon-2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/path8223.png);
+}
+
+.page-process .contact-us .icon-2 img {
+    height: 45px;
+    width: 45px;
+}
+
+.page-process .contact-us h3,
+.page-process .contact-us p {
+    text-align: center;
+    color: white;
+}
+
+.page-process .contact-us h3 {
+    margin: 1em 0em;
+}
+
+
+.page-process .take-classes .icon-3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/path8223.png);
+}
+
+.page-process .take-classes .icon-3 img {
+    width: 40%;
+    height: 40%;
+}
+
+.page-process .take-classes h3,
+.page-process .take-classes p {
+    text-align: center;
+    color: white;
+}
+
+.page-process .take-classes h3 {
+    margin: 1em 0em;
+}
+
+.elementor-vedio {
+    width: 70%;
+    position: relative;
+}
+
+.elementor-vedio img {
+    /* width: 100%; */
+    border-radius: 20px;
+    position: absolute;
+    transform: translateX(20%)translateY(-20%);
+}
+
+.icon-play {
+    width: 100px;
+    height: 100px;
+    border: 4px rgb(255, 255, 255) solid;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-64%) translateY(142%);
+}
+
+.icon-play i {
+    position: absolute;
+    font-size: 2rem;
+    background-color: #1B1036;
+    color: #1B1036;
 }
