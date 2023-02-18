@@ -9,6 +9,8 @@
     --color6: #30E3DF;
     --blue: #3c48ff;
     --gray: #A1A1A9;
+    --title-color: #e71da3;
+    --blancket : #ebc7e660;
 }
 
 * {
@@ -36,11 +38,22 @@ a{
     text-decoration: none;
 }
 
+h5 {
+    color: var(--title-color);
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
 button{
     border: none;
     padding: 0.8em 2.5em;
     border-radius: 8px;
     cursor: pointer;
+}
+
+
+.ml-1{
+    margin-left: 1em;
 }
 
 .main-top {
