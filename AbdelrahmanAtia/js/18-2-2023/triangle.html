@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    
+
+
+
+
+    <script>
+        
+        let number = 1
+        let num = Number(prompt("Enter a number"));
+        
+        for (i = 1; i <= num; i++ )
+        {
+             
+        for (let n = 1; n <= i ; n++) {
+            if ( num % 15 === 0)
+            {
+                document.write ( "fizzbuzz" )
+            }
+            else if ( num % 3 === 0 )
+            {
+                document.write ( "fizz" )
+            }
+            else if ( num % 5 === 0 )
+            {
+                document.write ( "buzz" )
+            }
+            else
+            {
+                document.write (num)
+            }
+            number++
+       }
+            
+            document.write("<br>");
+        }
+
+        
+    </script>
+</body>
+</html>
