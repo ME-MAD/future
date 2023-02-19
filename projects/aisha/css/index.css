@@ -295,3 +295,17 @@ header .header-paragraph .contact-btn:hover {
     background-color: #1B1036;
     color: #1B1036;
 }
+
+
+
+
+.elementor-container {
+    width: 80%;
+    text-align: center;
+    padding: 1em 2em 2em 2em;
+
+}
+
+.elementor-row {
+    display: flex;
+}
