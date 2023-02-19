@@ -10,42 +10,38 @@
 
 <body>
     <script>
-
-        let num = 1
+        
         let number = Number(prompt("write the number"))
 
-        tringle6()
+        tringle6(number)
 
 
 
 
-        function tringle6() {
+        function tringle6(number) 
+        {
+            let num = 1
             if (Number.isNaN(number))
                 document.write("error")
 
-
             else {
-                for (let n = 1; n <= number; n++) {
-                    for (let i = 1; i <= n; i++) {
-                        if (num % 2 === 0) {
+                for (let n = 1; n <= number; n++) 
+                {
+                    for (let i = 1; i <= n; i++) 
+                    {
+                        if (num % 2 === 0) 
+                        {
                             document.write(0 + " ")
                         }
-                        else if (num % 2 !== 0) {
+                        else
+                        {
                             document.write(1 + " ")
-
-                        }
-                        else {
-                            document.write("error")
                         }
                         num++
                     }
                     document.write("<br>")
                 }
             }
-
-
-
-
         }
 
     </script>

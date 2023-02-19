@@ -14,24 +14,25 @@
 
 
     <script>
-        
-        let number = 2
+
         let num = Number(prompt("Enter a number"));
 
-        function triangleZeroOne (num,number)
+        triangleZeroOne (num)
+
+        function triangleZeroOne (num)
         {
-          for (i = 1; i <= num; i++ )
-          {
-             for ( j = 1; j <= i; j++ )
-             {
-                document.write(" ( " + number + " ) " );
-                number += 2
-             }
-            
-            document.write("<br>");
-           }
+            let number = 2
+            for (i = 1; i <= num; i++ )
+            {
+                for ( j = 1; j <= i; j++ )
+                {
+                    document.write(" ( " + number + " ) " );
+                    number += 2
+                }
+                
+                document.write("<br>");
+            }
         }
-        triangleZeroOne (num,number)
         
     </script>
 </body>

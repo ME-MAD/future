@@ -18,15 +18,14 @@
 
 
         function tringle4(num) {
-            let sum = 1;
+            let sum = 0;
             if (Number.isNaN(num)) {
                 document.write("error")
             }
             else {
                 for (let n = 1; n <= num; n++) {
                     for (let number = 1; number <= n; number++) {
-                        document.write((sum = sum + 1) + " ")
-                        sum++
+                        document.write((sum += 2) + " ")
                     }
                     document.write("<br>")
                 }
