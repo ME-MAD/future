@@ -1,11 +1,10 @@
-function getSumOfTwoNumbers(num1, num2)
-{
-    let result = num1 + num2;
-    return result;
-}
+const getSumOfTwoNumbers = (num1, num2) => num1 + num2
 
-function pow(n,po) 
-{
+const getSquare = num => num * num
+
+const getCube = num => num * num * num
+
+const pow = (n , po) => {
     let result = 1;
     
     for(let i = 1; i <= abs(po); i++)
@@ -13,22 +12,7 @@ function pow(n,po)
         result *= n;
     }
 
-    if(po < 0)
-    {
-        return (1 / result);
-    }
-
-    return result;
+    return (po < 0) ? (1 / result) : result;
 }
 
-function abs(n) 
-{
-    if(n >= 0)
-    {
-        return n;
-    }
-    else
-    {
-        return (n * -1)
-    }
-}
+const abs = n => (n >= 0) ? n : n * -1

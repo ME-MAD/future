@@ -17,32 +17,52 @@
         
     
 
-        let number = 1
+        
         let num = Number(prompt("Enter a number"));
         
-        function triangleZeroOne (num,number)
-        {
-            for (i = 1; i <= num; i++ )
-           {
-               for ( j = 1; j <= i; j++ )
-               {
-                   if(number % 2 === 0)
-                   {
-                      document.write(" ( " + 0 + " ) " );
-                   }
-                    else
-                   {
-                      document.write(" ( " + 1 + " ) " );
-                   }
-                  number++
-               }
-            
-             document.write("<br>");
-           }
+        triangleZeroOne(num)
 
-            
+        const triangleZeroOne = function(num){
+            let number = 1
+            for (i = 1; i <= num; i++ )
+            {
+                for ( j = 1; j <= i; j++ )
+                {
+                    if(number % 2 === 0)
+                    {
+                        document.write(" ( " + 0 + " ) " );
+                    }
+                    else
+                    {
+                        document.write(" ( " + 1 + " ) " );
+                    }
+                    number++
+                }
+                
+                document.write("<br>");
+            }
         }
-        triangleZeroOne(num,number)
+
+        const triangleZeroOne2 = num => {
+            let number = 1
+            for (i = 1; i <= num; i++ )
+            {
+                for ( j = 1; j <= i; j++ )
+                {
+                    if(number % 2 === 0)
+                    {
+                        document.write(" ( " + 0 + " ) " );
+                    }
+                    else
+                    {
+                        document.write(" ( " + 1 + " ) " );
+                    }
+                    number++
+                }
+                
+                document.write("<br>");
+            }
+        }
         
     </script>
 </body>

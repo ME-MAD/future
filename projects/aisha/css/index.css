@@ -167,7 +167,7 @@ header .header-paragraph .contact-btn:hover {
 
 
 
-.process-section{
+.process-section {
     margin-top: 3em;
 }
 
@@ -190,7 +190,8 @@ header .header-paragraph .contact-btn:hover {
     position: relative;
 }
 
-.page-process h2, .page-process p{
+.page-process h2,
+.page-process p {
     color: var(--white);
 }
 
@@ -202,7 +203,7 @@ header .header-paragraph .contact-btn:hover {
     top: 80%;
 }
 
-.page-process .video img{
+.page-process .video img {
     border-radius: 40px;
 }
 
@@ -226,7 +227,7 @@ header .header-paragraph .contact-btn:hover {
     margin-left: 0.3em;
 }
 
-.page-process .blanket{
+.page-process .blanket {
     position: fixed;
     top: 0px;
     left: 0px;
@@ -239,11 +240,11 @@ header .header-paragraph .contact-btn:hover {
     display: none;
 }
 
-.page-process .blanket.active{
+.page-process .blanket.active {
     display: flex;
 }
 
-.page-process .blanket iframe{
+.page-process .blanket iframe {
     width: 80%;
     height: 60vh;
 }
