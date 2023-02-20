@@ -121,27 +121,6 @@ header .header-paragraph h3 {
 }
 
 
-header .header-paragraph .join-btn,
-header .header-paragraph .contact-btn {
-    font-size: 1.2rem;
-    font-weight: 700;
-    margin-right: 0.5em;
-    background-color: var(--white);
-    border: 0.5px solid #bface285;
-    color: var(--font-color);
-    transition: 0.2s;
-}
-
-
-header .header-paragraph .join-btn:hover,
-header .header-paragraph .contact-btn:hover {
-    background-color: var(--blue);
-    color: var(--white);
-    box-shadow: rgba(60, 72, 255, 0.4) 0px 5px, rgba(60, 72, 255, 0.3) 0px 10px, rgba(60, 72, 255, 0.2) 0px 15px, rgba(60, 72, 255, 0.1) 0px 20px, rgba(60, 72, 255, 0.05) 0px 25px;
-    transform: translateY(-5px);
-}
-
-
 @media only screen and (max-width: 870px) {
     header {
         flex-direction: column-reverse;
@@ -174,12 +153,6 @@ header .header-paragraph .contact-btn:hover {
 .process {
     text-align: center;
     padding: 2em 0em;
-}
-
-.process h3 {
-    font-size: 2rem;
-    color: var(--font-color);
-    margin: 2rem 0rem;
 }
 
 .page-process {
@@ -249,219 +222,84 @@ header .header-paragraph .contact-btn:hover {
     height: 60vh;
 }
 
-.elementor-container {
-    width: 70%;
-    background-color: var(--color7);
-    background-image: url(./../images/image.elementor-container.png);
-    margin: 55em auto 10em auto;
-    border-radius: 20px;
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text-popular.mt{
+    margin-top: 43em;
 }
 
-.elementor-row {
+
+
+
+
+.course-categories-title {
+    text-align: center;
+    margin-top: 8em;
+    margin-bottom: 2em;
+}
+
+.course-categories {
     display: flex;
-    width: 100%;
-    padding: 2em 1.5em;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.elementor-row div {
-    text-align: right;
-    width: 50%;
+.course-categories  .course-category {
+    width: 22.5%;
+    border: 1px solid var(--border-light);
+    border-radius: 20px;
+    padding:2em 0.6em;
+    margin-bottom: 2em;
 }
 
-.elementor-row div button {
-    padding: 15px 30px;
-    background-color: var(--blue);
-    font-weight: 600;
-    color: var(--white);
-    text-transform: capitalize;
+.course-categories  .course-category .background-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.elementor-row .h2 {
-    width: 50%;
-    text-align: left;
-    color: var(--title-color);
+.course-categories  .course-category .background-img img {
+    width: 45px;
+    height: 45px;
+}
+
+
+.course-categories  .course-category h3{
     font-size: 1.3rem;
-    font-weight: 700;
-    line-height: 2.35rem;
-    letter-spacing: 1px;
-    align-items: center
-}
-
-.courses {
+    font-weight: 600;
     text-align: center;
-    margin-bottom: 3em;
-}
-
-.courses h4 {
-    color: var(--title-color);
-    margin-bottom: 1em;
-}
-
-.courses h3 {
-    color: var(--font-color);
-    font-weight: 700;
-    font-size: 2rem;
+    margin-top: 1em;
 }
 
 
-
-
-.perant-icons {
-    width: 75%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.frist-row {
-    display: flex;
-    width: 100%;
-    margin-bottom: 1em;
-}
-
-.frist-row .elementor-wrap {
-    width: 21%;
-    height: 200px;
-    border: .5px solid gray;
-    margin-right: 2em;
-    border-radius: 20px;
-
-}
-
-.frist-row .elementor-wrap .background-img1 {
-    margin: 2em auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 80px;
-    display: flex;
-    justify-content: center;
+.course-categories  .course-category .background-img:nth-child(1){
     background-image: url(../images/path8223.png);
-    align-items: center;
 }
-
-.frist-row .elementor-wrap .background-img1 img {
-    width: 45px;
-    height: 45px;
-}
-
-.frist-row .elementor-wrap .background-img2 {
-    margin: 2em auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 80px;
-    display: flex;
-    justify-content: center;
+.course-categories  .course-category .background-img:nth-child(2){
     background-image: url(../images/path7839.png);
-    align-items: center;
 }
-
-.frist-row .elementor-wrap .background-img2 img {
-    width: 45px;
-    height: 45px;
-}
-
-
-.frist-row .elementor-wrap .background-img3 {
-    margin: 2em auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    background-image: url(../images/path8140\ \(1\).png);
-    align-items: center;
-}
-
-.frist-row .elementor-wrap .background-img3 img {
-    width: 45px;
-    height: 45px;
-}
-
-.frist-row .elementor-wrap .background-img4 {
-    margin: 2em auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 80px;
-    display: flex;
-    justify-content: center;
+.course-categories  .course-category .background-img:nth-child(3){
     background-image: url(../images/path8223.png);
-    align-items: center;
 }
-
-.frist-row .elementor-wrap .background-img4 img {
-    width: 45px;
-    height: 45px;
-}
-
-
-.last-row .elementor-wrap {
-    width: 21%;
-    height: 200px;
-    border: .5px solid gray;
-    margin-right: 2em;
-    border-radius: 20px;
-
-}
-
-.last-row .elementor-wrap .background-img1 {
-    margin: 2em auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    background-image: url(../images/path8140\ \(1\).png);
-    align-items: center;
-}
-
-.last-row .elementor-wrap .background-img1 img {
-    width: 45px;
-    height: 45px;
-}
-
-.last-row .elementor-wrap .background-img2 {
-    margin: 2em auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    background-image: url(../images/path8140\ \(1\).png);
-    align-items: center;
-}
-
-.last-row .elementor-wrap .background-img2 img {
-    width: 45px;
-    height: 45px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.last-row {
-    display: flex;
-    width: 100%;
+.course-categories  .course-category .background-img:nth-child(4){
+    background-image: url(../images/path8223.png);
 }

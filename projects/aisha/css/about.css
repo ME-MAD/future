@@ -1,6 +1,3 @@
-.font{
-    font-weight: 700;
-}
 .about{
     display: flex;
     margin-top: 6em;
@@ -76,48 +73,57 @@
     }
 }
 
-.percentage{
-    background-color: #E71DA3;
-    width: 70%;
-    height: 165px;
-    margin-left:15em;
-    border-radius: 30px;
-}
 
-.test{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.percentages{
+    background-color: var(--title-color);
+    border-radius: 30px;
     display: flex;
     justify-content: space-between;
-    margin-left: 5em;
+    padding: 1.5em 4em;
+    margin: 8em 0em;
 }
 
-.percentage .Lessons{
+.percentages .item{
+    width: 16%;
     position: relative;
-    top: 1.3em;
-    left: 1em;
+    text-align: center;
 }
 
-.percentage .Lessons .Lessons-img{
-   width: 50%; 
+.percentages .item img{
+    height: 100px;
+    width: 100px;
 }
 
-.percentage .Lessons .Lessons-img img{
-    width: 95%; 
-}
-
-.percentage .Lessons .Lessons-par{
+.percentages .item .item-par{
+    color: var(--white);
     position: absolute;
-    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 200px;
 }
 
-.percentage .Lessons .Lessons-par h4{
+.percentages .item .item-par h4{
     font-size: 1.3rem;
-    margin-top: 0.3em;
-    margin-left: 1.5em;
     font-weight: 700;
 }
 
-.percentage .Lessons .Lessons-par h2{
-    font-size: 3rem;
-    margin-left: 0.2em;
-    margin-top: -2.8em;
+.percentages .item .item-par h2{
+    font-size: 2.5rem;
 }

@@ -1,171 +1,46 @@
-body{
-    box-sizing: border-box;
+
+.prices-section .text-popular{
+    margin-bottom: 4em;
 }
 
-.continair {
-
-    width: 100%;
-}
-.father {
-
-box-sizing: border-box;
-
-}
-.first h4{
-
-    text-align: center;
-    padding: 4em;
-    color: #f22fa4;
-
-}
-
-.first h2{
-
-    text-align: center;
-    font-size: 3rem;
-}
-.parnt {
-
-    width: 100%;
-    height: 25rem;
-    border-radius: 5%;
+.prices {
     display: flex;
-    box-sizing: border-box;
     justify-content: space-between;
-
-}
-.parnt .son1 {
-    border: solid;
-    width: 25%;
-    border-radius: 5%;
-    margin-left: 10rem;
-    font-size: 19px;
-    height: 28rem;
 }
 
-.parnt .son1 h3 
+.prices .price {
+    border: 1px solid var(--border-light);
+    width: 32%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 1.5em 0.5em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.prices .price h3{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.prices .price .price-value {
+    color: var(--title-color);
+    margin: 0.4em 0em;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.prices .price .desc{
+    color: var(--gray);
+    margin: 2em 0em;
+}
+
+.prices .price.standard
 {
-
-    text-align: center;
-    justify-content: center;
-    padding: 3rem;
-
+    background-color: var(--font-color);
 }
-.parnt .son1 h1 
 
+.prices .price.standard h3,
+.prices .price.standard .desc
 {
-text-align: center;
-    color: #f22fa4;
-    padding: -1rem;
-}
-.parnt .son1 h5{
-
-    text-align: center;
-    justify-content: center;
-    padding: 4rem ;
-    color: rgb(199 196 197);
-
-}
-.parnt .son1 .button {
-
-    justify-content: center;
-    text-align: center;
-
-}
-.parnt .son1 .button button {
-
-    background-color: rgb(58 63 248);
-    color: white;
-}
-
-
-.parnt .son2 {
-    border: solid;
-    width: 25%;
-    border-radius: 5%;
-    font-size: 19px;
-    height: 28rem;
-    background-color: #1c0f34;
-}
-.parnt .son2 h3 
-{
-
-    text-align: center;
-    justify-content: center;
-    padding: 3rem;
-    color: white;
-
-}
-.parnt .son2 h1 
-
-{
-text-align: center;
-    color: #f22fa4;
-    padding: -1rem;
-}
-
-.parnt .son2 h5{
-
-    text-align: center;
-    justify-content: center;
-    padding: 4rem ;
-    color: rgb(248, 237, 241);
-
-}
-
-.parnt .son2 .button {
-
-    justify-content: center;
-    text-align: center;
-
-}
-.parnt .son2 .button button {
-
-    background-color: rgb(58 63 248);
-    color: white;
-
-}
-
-.parnt .son3 {
-    border: solid;
-    width: 25%;
-    border-radius: 5%;
-    font-size: 19px;
-    height: 28rem;
-    margin-right: 10rem;
-}
-
-.parnt .son3 h3 
-{
-
-    text-align: center;
-    justify-content: center;
-    padding: 3rem;
-
-}
-.parnt .son3 h1 
-
-{
-text-align: center;
-    color: #f22fa4;
-    padding: -1rem;
-}
-.parnt .son3 h5{
-
-    text-align: center;
-    justify-content: center;
-    padding: 4rem ;
-    color: rgb(199 196 197);
-
-}
-.parnt .son3 .button {
-
-    justify-content: center;
-    text-align: center;
-
-}
-.parnt .son3 .button button {
-
-    background-color: rgb(58 63 248);
-    color: white;
+    color: var(--white);
 }
