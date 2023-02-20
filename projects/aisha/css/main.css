@@ -10,7 +10,8 @@
     --blue: #3c48ff;
     --gray: #A1A1A9;
     --title-color: #e71da3;
-    --blancket : #ebc7e660;
+    --blancket: #ebc7e660;
+    --color7: #FFEBFF;
 }
 
 * {
@@ -30,11 +31,11 @@ ul {
 }
 
 
-img{
+img {
     width: 100%;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -44,7 +45,7 @@ h5 {
     text-transform: capitalize;
 }
 
-button{
+button {
     border: none;
     padding: 0.8em 2.5em;
     border-radius: 8px;
@@ -52,7 +53,7 @@ button{
 }
 
 
-.ml-1{
+.ml-1 {
     margin-left: 1em;
 }
 
@@ -60,15 +61,13 @@ button{
     padding: 2rem 6rem;
 }
 
-@media only screen and (max-width: 1200px)
-{
+@media only screen and (max-width: 1200px) {
     .main-top {
         padding: 2rem 3rem;
     }
 }
 
-@media only screen and (max-width: 992px)
-{
+@media only screen and (max-width: 992px) {
     .main-top {
         padding: 2rem 1rem;
     }

@@ -248,3 +248,220 @@ header .header-paragraph .contact-btn:hover {
     width: 80%;
     height: 60vh;
 }
+
+.elementor-container {
+    width: 70%;
+    background-color: var(--color7);
+    background-image: url(./../images/image.elementor-container.png);
+    margin: 55em auto 10em auto;
+    border-radius: 20px;
+
+
+}
+
+.elementor-row {
+    display: flex;
+    width: 100%;
+    padding: 2em 1.5em;
+}
+
+.elementor-row div {
+    text-align: right;
+    width: 50%;
+}
+
+.elementor-row div button {
+    padding: 15px 30px;
+    background-color: var(--blue);
+    font-weight: 600;
+    color: var(--white);
+    text-transform: capitalize;
+}
+
+.elementor-row .h2 {
+    width: 50%;
+    text-align: left;
+    color: var(--title-color);
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 2.35rem;
+    letter-spacing: 1px;
+    align-items: center
+}
+
+.courses {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.courses h4 {
+    color: var(--title-color);
+    margin-bottom: 1em;
+}
+
+.courses h3 {
+    color: var(--font-color);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+
+
+
+.perant-icons {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.frist-row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.frist-row .elementor-wrap {
+    width: 21%;
+    height: 200px;
+    border: .5px solid gray;
+    margin-right: 2em;
+    border-radius: 20px;
+
+}
+
+.frist-row .elementor-wrap .background-img1 {
+    margin: 2em auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/path8223.png);
+    align-items: center;
+}
+
+.frist-row .elementor-wrap .background-img1 img {
+    width: 45px;
+    height: 45px;
+}
+
+.frist-row .elementor-wrap .background-img2 {
+    margin: 2em auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/path7839.png);
+    align-items: center;
+}
+
+.frist-row .elementor-wrap .background-img2 img {
+    width: 45px;
+    height: 45px;
+}
+
+
+.frist-row .elementor-wrap .background-img3 {
+    margin: 2em auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/path8140\ \(1\).png);
+    align-items: center;
+}
+
+.frist-row .elementor-wrap .background-img3 img {
+    width: 45px;
+    height: 45px;
+}
+
+.frist-row .elementor-wrap .background-img4 {
+    margin: 2em auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/path8223.png);
+    align-items: center;
+}
+
+.frist-row .elementor-wrap .background-img4 img {
+    width: 45px;
+    height: 45px;
+}
+
+
+.last-row .elementor-wrap {
+    width: 21%;
+    height: 200px;
+    border: .5px solid gray;
+    margin-right: 2em;
+    border-radius: 20px;
+
+}
+
+.last-row .elementor-wrap .background-img1 {
+    margin: 2em auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/path8140\ \(1\).png);
+    align-items: center;
+}
+
+.last-row .elementor-wrap .background-img1 img {
+    width: 45px;
+    height: 45px;
+}
+
+.last-row .elementor-wrap .background-img2 {
+    margin: 2em auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/path8140\ \(1\).png);
+    align-items: center;
+}
+
+.last-row .elementor-wrap .background-img2 img {
+    width: 45px;
+    height: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.last-row {
+    display: flex;
+    width: 100%;
+}
