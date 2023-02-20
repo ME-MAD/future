@@ -1,3 +1,6 @@
+.font{
+    font-weight: 700;
+}
 .about{
     display: flex;
     margin-top: 6em;
@@ -71,4 +74,50 @@
     {
         margin-left: 0.2em;
     }
+}
+
+.percentage{
+    background-color: #E71DA3;
+    width: 70%;
+    height: 165px;
+    margin-left:15em;
+    border-radius: 30px;
+}
+
+.test{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5em;
+}
+
+.percentage .Lessons{
+    position: relative;
+    top: 1.3em;
+    left: 1em;
+}
+
+.percentage .Lessons .Lessons-img{
+   width: 50%; 
+}
+
+.percentage .Lessons .Lessons-img img{
+    width: 95%; 
+}
+
+.percentage .Lessons .Lessons-par{
+    position: absolute;
+    color: white;
+}
+
+.percentage .Lessons .Lessons-par h4{
+    font-size: 1.3rem;
+    margin-top: 0.3em;
+    margin-left: 1.5em;
+    font-weight: 700;
+}
+
+.percentage .Lessons .Lessons-par h2{
+    font-size: 3rem;
+    margin-left: 0.2em;
+    margin-top: -2.8em;
 }
