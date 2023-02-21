@@ -133,7 +133,16 @@ header .header-paragraph h3 {
     }
 }
 
-
+.page-process .blanket .close-btn
+{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+    color: var(--color1);
+    cursor: pointer;
+}
 
 
 
