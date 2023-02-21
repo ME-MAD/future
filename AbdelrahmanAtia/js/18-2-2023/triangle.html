@@ -14,35 +14,44 @@
 
 
     <script>
-        
-        let number = 1
-        let num = Number(prompt("Enter a number"));
-        
-        for (i = 1; i <= num; i++ )
+
+      
+        let num = Number(prompt("write the number"));
+
+        tringle7(num);
+
+
+        function tringle7(num) 
         {
-             
-        for (let n = 1; n <= i ; n++) {
-            if ( num % 15 === 0)
+            let sum = 1;
+           
+            for (let n = 1; n <= num; n++) 
             {
-                document.write ( "fizzbuzz" )
+
+                for (let number = 1; number <= n; number++)
+                {
+                    if (( sum % 15 === 0 ))
+                    {
+                        document.write( " ( " +" FizzBuzz "+ " ) "  ) ;
+                    }
+                    else if ( sum % 5 === 0)
+                    {
+                        document.write(  " ( " + " Fizz " + " ) " ) ;
+                    }
+                    else if ( sum % 3 === 0)
+                    {
+                        document.write(" ( " + "Buzz" + " ) ") ;
+                    }  
+                    else{
+                        document.write(  " ( " + sum + " ) ")
+                    }
+                    
+                    sum++
+                }
+                document.write("<br>");
             }
-            else if ( num % 3 === 0 )
-            {
-                document.write ( "fizz" )
-            }
-            else if ( num % 5 === 0 )
-            {
-                document.write ( "buzz" )
-            }
-            else
-            {
-                document.write (num)
-            }
-            number++
-       }
-            
-            document.write("<br>");
         }
+        
 
         
     </script>
