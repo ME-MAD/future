@@ -10,6 +10,7 @@
        
 
 
+    <script src="../helpers.js"></script>
 
 
   <script>
@@ -27,27 +28,9 @@
 
 
     function fizz_buzz() {
-        
         for (let n = 1; n <= number ; n++) {
-            if ( n % 15 === 0)
-            {
-                console.log ( n + " " + "is fizzbuzz" )
-            }
-            else if ( n % 3 === 0 )
-            {
-                console.log ( n + " " + "is fizz" )
-            }
-            else if ( n % 5 === 0 )
-            {
-                console.log ( n + " " + "is buzz" )
-            }
-            else
-            {
-                console.log (n)
-            }
-       }
-
-        
+            document.write(n + " " + "is " + getFizzBuzz(n) + "<br>");
+        }
     }
 
   </script>  

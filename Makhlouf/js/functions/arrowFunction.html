@@ -11,23 +11,35 @@
 
 
     <script>
-        let num = 10;
 
-        if(num > 0)
+        function sayHello(myName)
         {
-            return "even"
-        }
-        else
-        {
-            return "odd"
+            document.write("hello " + myName);
         }
 
-        console.log( num > 0 ? "even" : "odd"); // ternary operator
+        sayHello("ali");
+
+        // let x = sayHello;
+
+        // console.log(x);
+
+        // let num = 10;
+
+        // if(num > 0)
+        // {
+        //     return "even"
+        // }
+        // else
+        // {
+        //     return "odd"
+        // }
+
+        // console.log( num > 0 ? "even" : "odd"); // ternary operator
 
 
-        const sayHello = () => {
-            console.log("hello");
-        }
+        // const sayHello = () => {
+        //     console.log("hello");
+        // }
         // function sum1(x,y)
         // {
         //     return x + y;
