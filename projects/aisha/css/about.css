@@ -97,12 +97,12 @@
     justify-content: space-between;
     padding: 1.5em 4em;
     margin: 8em 0em;
+    flex-wrap: wrap;
 }
 
 .percentages .item{
     width: 16%;
     position: relative;
-    text-align: center;
 }
 
 .percentages .item img{
@@ -131,13 +131,14 @@
 @media only screen and (max-width: 680px)
 {
     .percentages{
-        padding: 1rem;
+        padding: 0em;
     }
     .percentages .item{
-        width: 60%;
+        width: 45%;
+        margin: 1em 0em;
     }
 }
-
+/* 
 @media only screen and (max-width: 600px)
 {
     .percentages{
@@ -149,4 +150,4 @@
     .percentages .item{
         width: 100%;
     }
-}
+} */

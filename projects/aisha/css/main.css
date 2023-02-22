@@ -57,8 +57,22 @@ button {
     padding: 0.8em 2.5em;
     border-radius: 8px;
     cursor: pointer;
+    text-transform: capitalize;
 }
 
+.input{
+    border: none;
+    border-radius: 10px;
+    padding: 0.5em;
+    outline: none;
+    font-size: 1.4rem;
+    width: 100%;
+}
+
+.input::placeholder{
+    color: var(--font-color);
+    text-transform: capitalize;
+}
 
 .ml-1 {
     margin-left: 1em;

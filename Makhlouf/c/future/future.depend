@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1677089927 source:/home/mm/projects/future/Makhlouf/c/future/main.c
+	<stdio.h>
+	<stdlib.h>
+
