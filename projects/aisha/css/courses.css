@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0rem 6.5rem;
+   
 }
 
 .courses .course 
@@ -131,12 +131,18 @@ body {
     letter-spacing: 1px;
 }
 @media only screen and (max-width: 780px) {
-    .courses
-     {
-    padding: 0rem;
-    }
+ 
     .courses .course {
         width: 45%;
+        margin-bottom: 4em;
+        padding: 0rem -6.5rem;
+    }
+    
+}
+@media only screen and (max-width: 550px) {
+
+    .courses .course {
+        width: 100%;
         margin-bottom: 4em;
         padding: 0rem -6.5rem;
     }
