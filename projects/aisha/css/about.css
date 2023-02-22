@@ -127,3 +127,25 @@
 .percentages .item .item-par h2{
     font-size: 2.5rem;
 }
+
+@media only screen and (max-width: 680px)
+{
+    .percentages{
+        padding: 0rem;
+    }
+    .percentages .item{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .percentages{
+        padding: 0rem;
+        width: 50%;
+        display: block;
+    }
+    .percentages .item{
+        width: 100%;
+    }
+}
