@@ -87,7 +87,6 @@ header .header-image-con {
 header .header-image-con img {
     transform: translateX(800px);
     opacity: 0;
-
     animation: imageOnPageOpenAnimation;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -129,12 +128,11 @@ header .header-paragraph h3 {
     header .header-paragraph,
     header .header-image-con {
         width: 100%;
-        text-align: center;
+
     }
 }
 
-.page-process .blanket .close-btn
-{
+.page-process .blanket .close-btn {
     display: block;
     position: absolute;
     top: 20px;
@@ -160,7 +158,6 @@ header .header-paragraph h3 {
 }
 
 .process {
-    text-align: center;
     padding: 2em 0em;
 }
 
@@ -248,7 +245,7 @@ header .header-paragraph h3 {
 
 
 
-.text-popular.mt{
+.text-popular.mt {
     margin-top: 43em;
 }
 
@@ -257,7 +254,6 @@ header .header-paragraph h3 {
 
 
 .course-categories-title {
-    text-align: center;
     margin-top: 8em;
     margin-bottom: 2em;
 }
@@ -268,15 +264,15 @@ header .header-paragraph h3 {
     flex-wrap: wrap;
 }
 
-.course-categories  .course-category {
+.course-categories .course-category {
     width: 22.5%;
     border: 1px solid var(--border-light);
     border-radius: 20px;
-    padding:2em 0.6em;
+    padding: 2em 0.6em;
     margin-bottom: 2em;
 }
 
-.course-categories  .course-category .background-img {
+.course-categories .course-category .background-img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -286,29 +282,31 @@ header .header-paragraph h3 {
     align-items: center;
 }
 
-.course-categories  .course-category .background-img img {
+.course-categories .course-category .background-img img {
     width: 45px;
     height: 45px;
 }
 
 
-.course-categories  .course-category h3{
+.course-categories .course-category h3 {
     font-size: 1.3rem;
     font-weight: 600;
-    text-align: center;
     margin-top: 1em;
 }
 
 
-.course-categories  .course-category .background-img:nth-child(1){
+.course-categories .course-category .background-img:nth-child(1) {
     background-image: url(../images/path8223.png);
 }
-.course-categories  .course-category .background-img:nth-child(2){
+
+.course-categories .course-category .background-img:nth-child(2) {
     background-image: url(../images/path7839.png);
 }
-.course-categories  .course-category .background-img:nth-child(3){
+
+.course-categories .course-category .background-img:nth-child(3) {
     background-image: url(../images/path8223.png);
 }
-.course-categories  .course-category .background-img:nth-child(4){
+
+.course-categories .course-category .background-img:nth-child(4) {
     background-image: url(../images/path8223.png);
 }
