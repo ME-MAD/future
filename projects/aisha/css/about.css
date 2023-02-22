@@ -131,7 +131,7 @@
 @media only screen and (max-width: 680px)
 {
     .percentages{
-        padding: 0rem;
+        padding: 1rem;
     }
     .percentages .item{
         width: 60%;
@@ -141,9 +141,10 @@
 @media only screen and (max-width: 600px)
 {
     .percentages{
-        padding: 0rem;
+        padding: 1rem;
         width: 50%;
         display: block;
+        margin-left: 6em;
     }
     .percentages .item{
         width: 100%;
