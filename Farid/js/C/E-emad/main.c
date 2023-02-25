@@ -1,8 +1,21 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdint-gcc.h>
 
 int main()
 {
-    printf("Hello world!\n");
-    return 0;
+    int num;
+    scanf("%d",&num);
+
+    if(num <= 2)
+    {
+        printf("NO");
+    }
+    else if(num % 2 == 0)
+    {
+        printf("YES");
+    }
+    else
+    {
+        printf("NO");
+    }
 }
