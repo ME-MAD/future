@@ -246,8 +246,17 @@ header .header-paragraph h3 {
 
 .text-popular.mt {
     margin-top: 43em;
+    display: flex;
+
 }
 
+.text-popular mt button {
+    padding: 15px 30px;
+    background-color: var(--blue);
+    font-weight: 600;
+    color: var(--white);
+    text-transform: capitalize;
+}
 
 
 

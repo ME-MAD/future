@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let number = Number(prompt("write the number"))
+        tringle7(number);
+
+
+        function tringle7(number) {
+
+            let sum = 1;
+
+            for (let n = 1; n <= number; n++) {
+
+                for (let num = 1; num <= n; num++) {
+                    if ((sum % 3 == 0)) {
+                        document.write("fizz")
+                    }
+                    else if (sum % 5 == 0) {
+                        document.write(" buzz ");
+                    }
+                    else if ((sum % 3 == 0) && (sum % 5 == 0)) {
+                        document.write(" FizzBuzz ");
+                    }
+                    else {
+                        document.write(sum + " ")
+                    }
+
+                    sum++
+                }
+                document.write("<br>")
+            }
+        }
+    </script>
+</body>
+
+</html>
