@@ -1,13 +1,10 @@
-
-#include <stdio.h> // preprocessor
-
 int main()
 {
     int num;
 
     scanf("%d", &num);
 
-    if(num <= 2)
+    if(num = 2)
     {
         printf("NO");
     }
