@@ -60,7 +60,7 @@ button {
     text-transform: capitalize;
 }
 
-.input{
+.input {
     border: none;
     border-radius: 10px;
     padding: 0.5em;
@@ -69,7 +69,7 @@ button {
     width: 100%;
 }
 
-.input::placeholder{
+.input::placeholder {
     color: var(--font-color);
     text-transform: capitalize;
 }
@@ -85,8 +85,12 @@ button {
 
 
 .text-popular {
-
     margin: 8em 0em 2em 0em;
+}
+
+.text-popular button {
+    text-align: right;
+
 }
 
 .btn-blue {
