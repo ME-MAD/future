@@ -244,22 +244,42 @@ header .header-paragraph h3 {
 
 
 
-.text-popular.mt {
+.text-popular-mt {
     margin-top: 43em;
     display: flex;
-
+    width: 100%;
+    justify-content: space-between;
 }
 
-.text-popular mt button {
-    padding: 15px 30px;
+
+
+
+.text-popular-mt button {
+    padding: .8rem 1.6rem;
     background-color: var(--blue);
     font-weight: 600;
     color: var(--white);
     text-transform: capitalize;
+
 }
 
+@media only screen and (max-width: 1130px) {
+    .text-popular-mt {
+        margin-top: 30em;
+    }
+}
 
+@media only screen and (max-width: 850px) {
+    .text-popular-mt {
+        margin-top: 20em;
+    }
+}
 
+@media only screen and (max-width: 460px) {
+    .text-popular-mt {
+        margin-top: 2em;
+    }
+}
 
 .course-categories-title {
     margin-top: 8em;
