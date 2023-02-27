@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team</title>
+</head>
+<body>
+<script>
+
+
+  let rowNum = Number( prompt("enter the number row") );
+  let rowResult = 0;
+  let endResult = 0;
+
+  for (let row = 1; row <= rowNum; row++) 
+  {
+    for (let j = 1; j <= 3; j++) 
+    {
+      let Num = Number( prompt("the row : " + row + "\n" + "enter the num zero or one : " + j) );
+        
+      if (Num == 1) {
+        rowResult += 1
+      }
+      
+    } 
+
+    countRowResult = rowResult
+    rowResult = 0
+
+    if( countRowResult >= 2)
+    {
+      endResult += 1
+    }
+
+  }
+  document.write("<h2>The number of friends who are participating ( " + endResult + " ) </h2>")
+  
+
+</script>
+</body>
+</html>
