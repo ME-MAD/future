@@ -246,21 +246,11 @@ header .header-paragraph h3 {
 
 .text-popular-mt {
     margin-top: 43em;
+    margin-bottom: 2em;
     display: flex;
     width: 100%;
     justify-content: space-between;
-}
-
-
-
-
-.text-popular-mt button {
-    padding: .8rem 1.6rem;
-    background-color: var(--blue);
-    font-weight: 600;
-    color: var(--white);
-    text-transform: capitalize;
-
+    align-items: center;
 }
 
 @media only screen and (max-width: 1130px) {
@@ -290,6 +280,7 @@ header .header-paragraph h3 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 2em;
 }
 
 .course-categories .course-category {
@@ -297,7 +288,6 @@ header .header-paragraph h3 {
     border: 1px solid var(--border-light);
     border-radius: 20px;
     padding: 2em 0.6em;
-    margin-bottom: 2em;
 }
 
 .course-categories .course-category .background-img {
@@ -339,11 +329,8 @@ header .header-paragraph h3 {
     background-image: url(../images/path8223.png);
 }
 
-@media only screen and (max-width: 662px) {
+@media only screen and (max-width: 1080px) {
     .course-categories .course-category {
-        display: flex;
-        justify-content: space-between;
-        width: 45%;
-        flex-wrap: wrap;
+        flex: 1 1 30%;
     }
 }
