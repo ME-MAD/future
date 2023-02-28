@@ -26,14 +26,11 @@
       
     } 
 
-    countRowResult = rowResult
-    rowResult = 0
-
-    if( countRowResult >= 2)
+    if( rowResult >= 2)
     {
       endResult += 1
     }
-
+    rowResult = 0
   }
   document.write("<h2>The number of friends who are participating ( " + endResult + " ) </h2>")
   
