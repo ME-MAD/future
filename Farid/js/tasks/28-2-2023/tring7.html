@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     let num = Number(prompt("write the number"));
+
+    trin7(num);
+
+
+     function trin7(num) 
+         {
+       let sum = 1;
+   
+        for (let n = 1; n <= num; n++) 
+         {
+
+        for (let numb = 1; numb <= n; numb++)
+        {
+            if ((sum % 3 == 0) && (sum % 5 == 0))
+            {
+                document.write( "FizzBuzz" ) ;
+            }
+            else if ( sum % 3 == 0)
+            {
+                document.write( "Fizz" ) ;
+            }
+            else if ( sum % 5 == 0)
+            {
+                document.write("Buzz") ;
+            }  
+            else{
+                document.write(sum + " ")
+            }
+            
+            sum++
+        }
+        document.write("<br>");
+    }
+}   
+    </script>
+</body>
+</html>
