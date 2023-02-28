@@ -13,6 +13,7 @@
 <script>
 
 let number = Number (prompt("write number of problem"))
+let problem_solve = 0
  
 for (let problem = 1;  problem <= number ; problem++)  
 {
@@ -26,11 +27,12 @@ for (let problem = 1;  problem <= number ; problem++)
    
    if ((player_one + player_tow + player_three) >= 2)
    {
-    document.write("1")
+    document.write(1)
+    problem_solve += 1
    }
    else
    {
-    document.write("0")
+    document.write(0)
    } 
    
 }
