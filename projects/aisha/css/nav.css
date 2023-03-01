@@ -23,6 +23,7 @@
     color: black;
 }
 
+
 .main-top nav .nav-blanket{
     position: fixed;
     width: 0px;
@@ -97,4 +98,29 @@ nav ul .close-btn{
         color: var(--color4);
         cursor: pointer;
     }
+}
+
+.main-top nav ul .sub_contect 
+{
+   position: absolute;
+   overflow: hidden;
+   max-height: 0;
+
+}
+
+.main-top nav ul .sub_contect .sub_drop ul
+{
+    display: block;
+    
+}
+
+.main-top nav ul  .sub_contect .sub_drop ul li
+{
+    
+    margin: 0;
+    padding: 0;
+}
+
+.main-top nav ul .sub_contect ~ .menu a:focus{
+max-height: 400px;
 }
