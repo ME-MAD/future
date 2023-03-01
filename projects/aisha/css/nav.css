@@ -121,3 +121,6 @@ nav ul .close-btn{
     padding: 0;
 }
 
+.main-top nav ul .sub_contect ~ .menu a:focus{
+max-height: 400px;
+}
