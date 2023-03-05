@@ -13,6 +13,7 @@
     --blancket: #ebc7e660;
     --color7: #FFEBFF;
     --border-light: #E5E5E7;
+    --gold: #f0ad4e;
 }
 
 * {
@@ -58,6 +59,14 @@ button {
     border-radius: 8px;
     cursor: pointer;
     text-transform: capitalize;
+}
+
+.stars {
+    width: 100px;
+    display: flex;
+    color: var(--gold);
+    font-size: .8rem;
+    justify-content: space-between;
 }
 
 .gray {
