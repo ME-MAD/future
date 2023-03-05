@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+        let numbers = [1, 2, 3, 4, 70, 10, 15, 30, 90];
+
+        let x = myMaxQuadratic(numbers);
+
+        console.log(x);
+
+
+        function myMaxQuadratic(arr) { //O(n^2)
+
+            for (let i = 0; i < arr.length; i++) {
+                let isMax = true;
+                for (let j = 0; j < arr.length; j++) {
+                    if (arr[i] < arr[j]) {
+                        isMax = false;
+                        break;
+                    }
+                }
+
+                if (isMax == true) {
+                    return arr[i];
+                }
+            }
+        }
+
+        function myMaxLinear(arr) { //O(n)
+            let max = arr[0];
+            for (let i = 1; i < arr.length; i++) {
+                if (arr[i] > max) {
+                    max = arr[i]
+                }
+            }
+            return max;
+        }
+    </script>
+</body>
+
+</html>
