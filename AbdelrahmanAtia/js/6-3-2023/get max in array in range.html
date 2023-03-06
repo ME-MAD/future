@@ -15,14 +15,14 @@
 
         let numbers = [1, 2, 3, 4, 70, 10, 15, 30, 90];
 
-        let x = myMaxLinear(numbers);
+        let x = myMaxLinear(numbers, 8);
 
         console.log(x);
 
-        function myMaxLinear(arr) { //O(n)
+        function myMaxLinear(arr, range) { //O(n)
             let max = arr[0];
 
-            for (let i = 1; i < 5;i++ ) {
+            for (let i = 1; i < range; i++) {
                 if (arr[i] > max) {
                     max = arr[i]
                 }

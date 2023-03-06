@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
+
 <body>
-    
 
 
 
-    <script>
-          let num1 = Number(prompt("Enter a number 1"));
-          let num2 = Number(prompt("Enter a number 2"));
 
-          for (let index = num1; index < num2; index++) {
-            for(let i = 2 ; i < index ; i++){
-            if(index % i !== 0)
-            console.log(index)
-          }
-        }
+  <script>
+    let num1 = Number(prompt("Enter a number 1"));
+    let num2 = Number(prompt("Enter a number 2"));
+
+    for (let index = num1; index <= num2; index++) {
+      if (isPrime(index)) {
+        console.log(index);
+      }
+    }
 
 
-    </script>
+    function isPrime(num) {
+      if (num == 2 || num == 3)
+        return true;
+      if (num <= 1 || num % 2 == 0 || num % 3 == 0)
+        return false;
+      for (let i = 5; i * i <= num; i += 6)
+        if (num % i == 0 || num % (i + 2) == 0)
+          return false;
+      return true;
+    }
+  </script>
 </body>
+
 </html>

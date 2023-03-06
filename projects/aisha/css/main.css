@@ -64,9 +64,13 @@ button {
 .stars {
     width: 100px;
     display: flex;
-    color: var(--gold);
     font-size: .8rem;
+    color: var(--border-light);
     justify-content: space-between;
+}
+
+.stars .active {
+    color: var(--gold);
 }
 
 .gray {
