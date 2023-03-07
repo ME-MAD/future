@@ -1,51 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
+
 <head>
     <title>Document</title>
     <style>
-        *{
+        * {
             margin: 0px;
             padding: 0px;
             box-sizing: border-box;
         }
 
-        .parent{
-            width: 800px;
-            height: 800px;
-            background-color: burlywood;
-            overflow: hidden;
-            margin-top: 5em;
-            margin-left: 5em;
-            position: relative;
+        .parent {
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(210, 105, 30, 0.486);
+            height: 1500px;
+            justify-content: center;
         }
 
-        .son{
-            width: 500px;
-            height: 500px;
-            background-color: chartreuse;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translateX(-50%) translateY(-50%);
-        }
-
-        .child{
-            height: 50px;
+        .son1 {
             background-color: red;
-            position: absolute;
-            left: 0px;
-            right: 0px;
+            width: 300px;
+            height: 300px;
+        }
+
+        .son2 {
+            background-color: blue;
+            width: 300px;
+            height: 300px;
+        }
+
+        .son3 {
+            background-color: green;
+            width: 300px;
+            height: 300px;
         }
     </style>
 </head>
-<body>
 
+<body dir="ltr">
     <div class="parent">
-        <div class="son">
-            <div class="child"></div>
-            <div class="child2"></div>
+        <div class="son1">
+
         </div>
+        <div class="son2">
+        </div>
+        <div class="son3"></div>
     </div>
 
 </body>
+
 </html>
