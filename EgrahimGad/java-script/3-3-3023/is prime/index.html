@@ -12,11 +12,21 @@
     <script>
         let num = Number(prompt("write the number"))
         let number = Number(prompt("write a number"))
-        sum = 0
-        for (n = num; n < number; n++) {
-            document.write(sum)
-            sum += n
+        isPrime(num, number)
+
+        function isPrime(num, number) {
+            for (i = num; i <= number; i++) {
+                n = 2
+                while (i < parseInt(number / 2)) {
+                    if (number % n == 0) {
+                        return false;
+                    }
+                    n++
+                }
+                return true;
+            }
         }
+
 
 
 
