@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        let number = Number( prompt("Enter your number") )
+        let counter = 0;
+
+        for(let i = 1; i <= number; i++)
+        {
+            let one = Number( prompt("IS Solved"));
+            let two = Number( prompt("IS Solved"));
+            let three = Number( prompt("IS Solved"));
+
+            if( (one + two + three) >= 2 )
+            {
+                counter++;
+            }
+        }
+
+        console.log(counter);
+    </script>
+</body>
+</html>
