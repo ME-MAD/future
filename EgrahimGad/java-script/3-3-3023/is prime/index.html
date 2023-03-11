@@ -12,22 +12,26 @@
     <script>
         let num = Number(prompt("write the number"))
         let number = Number(prompt("write a number"))
-        isPrime(num, number)
+        isPrime(num1, num2)
 
-        function isPrime(num, number) {
-            for (i = num; i <= number; i++) {
-                n = 2
-                while (i < parseInt(number / 2)) {
-                    if (number % n == 0) {
-                        return false;
-                    }
-                    n++
-                }
-                return true;
+
+        for (i = num1; i <= num2; i++) {
+            if (isPrime(num1)) {
+                console.log(num1);
             }
         }
 
 
+        function isPrime(number) {
+            for (let j = 2; j <= number; j++) {
+                if (number % j == 0) {
+                    return false;
+                }
+                else {
+                    return true;
+                }
+            }
+        }
 
 
 
