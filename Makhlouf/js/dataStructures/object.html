@@ -15,49 +15,204 @@
     
 
     <script>
-        let x = {
-            name : "ahmed",
-            "is male" : true,
-            getAge: function(birthdate){
-                return 10;
-            },
-            getGender: () => true,
-            grades: [10,15,20,30,70,7],
-            friends: [
-                {
-                    name : "ali",
-                    age: 33,
-                    birthDay: "7/9/2001"
-                },
-                {
-                    name : "abd el rahman",
-                    age: 21,
-                    birthDay: "7/9/2001"
-                },
-                {
-                    name : "farid",
-                    age: 26,
-                    birthDay: "7/9/2001"
-                },
-                {
-                    name : "mohammed",
-                    age: 26,
-                    birthDay: "7/9/2001"
-                },
-            ]
+
+
+        let data = [];
+
+        let num = 10;
+
+        while(num > 0)
+        {
+            data.push(num % 2)
+            num = parseInt(num / 2)
         }
 
-        let person = {
-            name: "ali",
-            age: 31
-        }
-
-        let person2 = person;
-
-        let person3 = {...person};
+        console.log(data.reverse().join(''));
 
 
-        console.log(person3);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // heigher order function
+        // functions that takes input as a function or return a function
+        //get sallary is a hiegher order function
+       
+
+        // function myMap(arr, func)
+        // {
+        //     for(let i = 0; i < arr.length; i++)
+        //     {
+        //         console.log( func(arr[i]) );
+        //     }
+        // }
+
+
+        // myMap([1,2,4,7,9] , function(element){
+        //     return element
+        // })   
+
+        // myMap([1,2,4,7,9] , function(element){
+        //     return element * 2
+        // })   
+
+        // myMap([1,2,4,7,9] , function(element){
+        //     return element * 2
+        // })        
+
+        // let x = 10;
+
+
+
+        // getSalary(x, function(){
+        //     return 650;
+        // })
+
+
+
+
+        // function getSalary(num, myFun)
+        // {
+        //     console.log(myFun());
+        //     return 1300 * num;
+        // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // let x = {
+        //     getAges: function(){
+        //         return {
+        //             age1: 13,
+        //             age2: 15
+        //         };
+        //     },
+        //     getNames(){
+        //         return "ahmed"
+        //     },
+        //     myGetSallary: getSalary,
+        // }
+
+
+        // console.log( x.myGetSallary );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // let x = {
+        //     name : "ahmed",
+        //     "is male" : true,
+        //     getAge: function(birthdate){
+        //         return 10;
+        //     },
+        //     getGender: () => true,
+        //     grades: [10,15,20,30,70,7],
+        //     friends: [
+        //         {
+        //             name : "ali",
+        //             age: 33,
+        //             birthDay: "7/9/2001"
+        //         },
+        //         {
+        //             name : "abd el rahman",
+        //             age: 21,
+        //             birthDay: "7/9/2001"
+        //         },
+        //         {
+        //             name : "farid",
+        //             age: 26,
+        //             birthDay: "7/9/2001"
+        //         },
+        //         {
+        //             name : "mohammed",
+        //             age: 26,
+        //             birthDay: "7/9/2001"
+        //         },
+        //     ]
+        // }
+
+        // let person = {
+        //     name: "ali",
+        //     age: 31
+        // }
+
+        // let person2 = person;
+
+        // let person3 = {...person};
+
+
+        // console.log(person3);
         // console.log(person);
 
         // person3.name = "mohammed"
