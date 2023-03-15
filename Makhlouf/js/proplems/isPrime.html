@@ -10,24 +10,58 @@
 
 <body>
 
-
+    <script src="../helper.js"></script>
+    
     <script>
 
-        let input = Number(prompt("enter a number"))
+        let input1 = Number(prompt("enter a number"))
+        let input2 = Number(prompt("enter a number"))
 
-        document.write(isPrime(input));
 
-        function isPrime(number) {
-            let n = 2;
-
-            while (n < parseInt(number / 2)) {
-                if (number % n == 0) {
-                    return false;
-                }
-                n++
+        for(let i = input1; i <= input2; i++)
+        {
+            if(isPrime(i))
+            {
+                console.log(i);
             }
-            return true;
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // let input = Number(prompt("enter a number"))
+
+        // document.write(isPrime(input));
+
+        // function isPrime(number) {
+        //     let n = 2;
+
+        //     while (n < parseInt(number / 2)) {
+        //         if (number % n == 0) {
+        //             return false;
+        //         }
+        //         n++
+        //     }
+        //     return true;
+        // }
 
 
     </script>

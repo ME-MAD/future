@@ -17,12 +17,9 @@
     let num1 = Number(prompt("Enter a number "));
     
 
-    for (let index = 1; index < num1; index++) {
-      if (num1 % index == 0) {
-        if(isPrime(index)){
-            console.log(index)
-        }
-        
+    for (let index = 2; index < num1; index++) {
+      if (num1 % index == 0 && isPrime(index)) {
+        console.log(index)
       }
     }
 
