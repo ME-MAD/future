@@ -1,26 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+
 
     <script>
+        const options = [
+            {
+                "key": 1,
+                "name": "rock",
+                "beats": 3,
+                "lose": 2
+            },
+            {
+                "key": 2,
+                "name": "paper",
+                "beats": 1,
+                "lose": 3
+            },
+            {
+                "key": 3,
+                "name": "scissors",
+                "beats": 2,
+                "lose": 1
+            },
+        ]
 
-        console.log(Math.ceil(Math.random() * 10));
-        console.log(Math.ceil(Math.random() * 10));
-        console.log(Math.ceil(Math.random() * 10));
-        console.log(Math.ceil(Math.random() * 10));
-        console.log(Math.ceil(Math.random() * 10));
-        console.log(Math.ceil(Math.random() * 10));
-        console.log(Math.ceil(Math.random() * 10));
-        console.log(Math.ceil(Math.random() * 10));
-        console.log(Math.ceil(Math.random() * 10));
+        let playerChoice = Number(prompt("Enter a number from 1 : 3")) // 1
+        let ComputerChoice = Math.ceil(Math.random() * 3);
+        let playerOption = options[playerChoice - 1]
+        let ComputerOption = options[ComputerChoice - 1];
 
+
+        document.write(`<h1> player choice was ${playerOption.name} </h1>`)
+        document.write(`<h1> Computer choice was ${ComputerOption.name} </h1>`)
+
+
+        if (playerOption.beats == ComputerOption.key) {
+            document.write("<h1 style='color:green;'> Win </h1>")
+        }
+        else if (playerOption.lose == ComputerOption.key) {
+            document.write("<h1 style='color:red;'> Loss </h1>")
+        }
+        else {
+            document.write("<h1 style='color:yellow;'> draw </h1>")
+        }
     </script>
 </body>
+
 </html>

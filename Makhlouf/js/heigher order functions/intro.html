@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        // repeatLog(1, 10, (element) => {
+        //     console.log(element);
+        // })
+        // repeatLog(1, 10, (element) => {
+        //     if (element % 2 == 0) {
+        //         console.log("even");
+        //     }
+        //     else {
+        //         console.log("odd");
+        //     }
+        // })
+        // repeatLog(1, 10, (element) => {
+        //     console.log(element * 2);
+        // })
+        // repeatLog(1, 10, (element) => {
+        //     console.log(element * 3 + 5 * 2 / 4);
+        // })
+        // repeatLog(1, 10, (element) => {
+        //     console.log("product " + element);
+        // })
+
+        repeatLog(1, 10, isEven)
+
+
+
+        function repeatLog(start, end, callback) {
+            for (let i = start; i <= end; i++) {
+                callback(i)
+            }
+        }
+
+        const isEven = (n) => n % 2 == 0 ? "even" : "odd"
+
+        // function repeatLog2(start, end) {
+        //     for (let i = start; i <= end; i++) {
+        //         console.log(i * 2);
+        //     }
+        // }
+
+        // function repeatLog3(start, end) {
+        //     for (let i = start; i <= end; i++) {
+        //         console.log(`Product ${i}`);
+        //     }
+        // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // let total = 0, count = 1;
+        // while (count <= 10) {
+        //     total += count;
+        //     count += 1;
+        // }
+        // console.log(total);
+
+        // console.log(sum(range(1, 10)));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        function range(start, end) {
+            let arr = [];
+            for (let i = start; i <= end; i++) {
+                arr.push(i)
+            }
+            return arr;
+        }
+
+        function sum(arr) {
+            let sum = 0;
+            for (let i = 0; i < arr.length; i++) {
+                sum += arr[i]
+            }
+            return sum;
+        }
+    </script>
+</body>
+
+</html>
