@@ -30,21 +30,30 @@
         // repeatLog(1, 10, (element) => {
         //     console.log(element * 3 + 5 * 2 / 4);
         // })
-        // repeatLog(1, 10, (element) => {
-        //     console.log("product " + element);
-        // })
+       
 
-        repeatLog(1, 10, isEven)
+        repeatLog(1, 10,  (number) => {
+            if (number % 2 == 0){
+                console.log("even")
+            }
+            else{
+                console.log("odd")
+            }
+        })
+        repeatLog(1, 10, product()
+        )
 
-
+        const product =  number => {
+            console.log("product " + number);}
 
         function repeatLog(start, end, callback) {
             for (let i = start; i <= end; i++) {
                 callback(i)
+                
             }
         }
 
-        const isEven = (n) => n % 2 == 0 ? "even" : "odd"
+        // const isEven = (n) => n % 2 == 0 ? "even" : "odd"
 
         // function repeatLog2(start, end) {
         //     for (let i = start; i <= end; i++) {
