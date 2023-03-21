@@ -40,16 +40,16 @@
                 console.log("odd")
             }
         })
-        repeatLog(1, 10, product()
-        )
 
-        const product =  number => {
-            console.log("product " + number);}
+        const product =  number => { console.log("product " + number); }
+
+        repeatLog(1, 10, product)
+
+        
 
         function repeatLog(start, end, callback) {
             for (let i = start; i <= end; i++) {
                 callback(i)
-                
             }
         }
 
